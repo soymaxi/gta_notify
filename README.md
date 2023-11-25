@@ -36,8 +36,10 @@ TriggerClientEvent('gta_notify:client:SendAlert', source, { type = 'notify', tex
 NotiFija Notifications Actions -
 ```html
 exports['gta_notify']:NotiFija('start', 'notifijaidtest', 'success', 'NotiFija test. (Persist Noti)')
+```
 
-exports['gta_notify']:NotiFija('end', 'notifijaidtest')
+```html
+['gta_notify']:NotiFija('end', 'notifijaidtest')
 ```
 
 start (start the notification)
