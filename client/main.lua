@@ -58,11 +58,12 @@ end
 
 -- @test commands
 
+--[[
 RegisterCommand('notifijatest', function()
 	SendNUIMessage({
 		persist = 'START',
 		id = 'test',
-		type = 'inform',
+		type = 'notify',
 		text = '',
 		style = style
 	})
@@ -76,5 +77,6 @@ RegisterCommand('notifijaend', function()
 end)
 
 RegisterCommand('noti', function()
-	exports['gta_notify']:NormalNoti('notification', 'texto')
+	exports['gta_notify']:NormalNoti('notify', 'texto')
 end)
+--]]
