@@ -1,0 +1,6157 @@
+.symbol {
+    display: inline-block;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    position: relative;
+    border-radius: 0.42rem;
+  }
+  .symbol .symbol-label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-weight: 500;
+    color: #3F4254;
+    background-color: #F3F6F9;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 0.42rem;
+  }
+  .symbol .symbol-badge {
+    position: absolute;
+    border: 2px solid #ffffff;
+    border-radius: 100%;
+    top: 0;
+    right: 0;
+  }
+  .symbol > img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 0.42rem;
+  }
+  .symbol.symbol-circle {
+    border-radius: 50%;
+  }
+  .symbol.symbol-circle > img {
+    border-radius: 50%;
+  }
+  .symbol.symbol-circle .symbol-label {
+    border-radius: 50%;
+  }
+  .symbol.symbol-primary .symbol-label {
+    background-color: #1db9f2;
+    color: #FFFFFF;
+  }
+  .symbol.symbol-light-primary .symbol-label {
+    background-color: #bbedff;
+    color: #1db9f2;
+  }
+  .symbol.symbol-secondary .symbol-label {
+    background-color: #E4E6EF;
+    color: #3F4254;
+  }
+  .symbol.symbol-light-secondary .symbol-label {
+    background-color: #EBEDF3;
+    color: #E4E6EF;
+  }
+  .symbol.symbol-success .symbol-label {
+    background-color: #1BC5BD;
+    color: #ffffff;
+  }
+  .symbol.symbol-light-success .symbol-label {
+    background-color: #C9F7F5;
+    color: #1BC5BD;
+  }
+  .symbol.symbol-info .symbol-label {
+    background-color: #8950FC;
+    color: #ffffff;
+  }
+  .symbol.symbol-light-info .symbol-label {
+    background-color: #EEE5FF;
+    color: #8950FC;
+  }
+  .symbol.symbol-warning .symbol-label {
+    background-color: #FFA800;
+    color: #ffffff;
+  }
+  .symbol.symbol-light-warning .symbol-label {
+    background-color: #FFF4DE;
+    color: #FFA800;
+  }
+  .symbol.symbol-danger .symbol-label {
+    background-color: #F64E60;
+    color: #ffffff;
+  }
+  .symbol.symbol-light-danger .symbol-label {
+    background-color: #FFE2E5;
+    color: #F64E60;
+  }
+  .symbol.symbol-light .symbol-label {
+    background-color: #F3F6F9;
+    color: #7E8299;
+  }
+  .symbol.symbol-light-light .symbol-label {
+    background-color: #F3F6F9;
+    color: #F3F6F9;
+  }
+  .symbol.symbol-dark .symbol-label {
+    background-color: #181C32;
+    color: #ffffff;
+  }
+  .symbol.symbol-light-dark .symbol-label {
+    background-color: #D1D3E0;
+    color: #181C32;
+  }
+  .symbol.symbol-white .symbol-label {
+    background-color: #ffffff;
+    color: #3F4254;
+  }
+  .symbol.symbol-light-white .symbol-label {
+    background-color: #ffffff;
+    color: #ffffff;
+  }
+  .symbol.symbol-15 > img {
+    width: 100%;
+    max-width: 15px;
+    height: 15px;
+  }
+  .symbol.symbol-15 .symbol-label {
+    width: 15px;
+    height: 15px;
+  }
+  .symbol.symbol-15 .symbol-badge {
+    width: 12px;
+    height: 12px;
+    top: -6px;
+    right: -6px;
+  }
+  .symbol.symbol-15 .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -6px;
+  }
+  .symbol.symbol-15.symbol-circle .symbol-badge {
+    top: -7.9px;
+    right: -7.9px;
+  }
+  .symbol.symbol-15.symbol-circle .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -7.9px;
+  }
+  .symbol.symbol-15.symbol-fixed .symbol-label {
+    width: 15px;
+    height: 15px;
+  }
+  .symbol.symbol-10.symbol-fixed > img {
+    width: 15px;
+    height: 15px;
+    max-width: auto;
+  }
+  .symbol.symbol-15.symbol-2by3 .symbol-label {
+    height: 15px;
+    width: 15px;
+  }
+  .symbol.symbol-15.symbol-2by3 > img {
+    height: 15px;
+    width: 20px;
+    max-width: auto;
+  }
+  .symbol.symbol-20 > img {
+    width: 100%;
+    max-width: 20px;
+    height: 20px;
+  }
+  .symbol.symbol-20 .symbol-label {
+    width: 20px;
+    height: 20px;
+  }
+  .symbol.symbol-20 .symbol-badge {
+    width: 12px;
+    height: 12px;
+    top: -6px;
+    right: -6px;
+  }
+  .symbol.symbol-20 .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -6px;
+  }
+  .symbol.symbol-20.symbol-circle .symbol-badge {
+    top: -7.9px;
+    right: -7.9px;
+  }
+  .symbol.symbol-20.symbol-circle .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -7.9px;
+  }
+  .symbol.symbol-20.symbol-fixed .symbol-label {
+    width: 20px;
+    height: 20px;
+  }
+  .symbol.symbol-20.symbol-fixed > img {
+    width: 20px;
+    height: 20px;
+    max-width: auto;
+  }
+  .symbol.symbol-20.symbol-2by3 .symbol-label {
+    height: 20px;
+    width: 30px;
+  }
+  .symbol.symbol-20.symbol-2by3 > img {
+    height: 20px;
+    width: 30px;
+    max-width: auto;
+  }
+  .symbol.symbol-25 > img {
+    width: 100%;
+    max-width: 25px;
+    height: 25px;
+  }
+  .symbol.symbol-25 .symbol-label {
+    width: 25px;
+    height: 25px;
+  }
+  .symbol.symbol-25 .symbol-badge {
+    width: 12px;
+    height: 12px;
+    top: -6px;
+    right: -6px;
+  }
+  .symbol.symbol-25 .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -6px;
+  }
+  .symbol.symbol-25.symbol-circle .symbol-badge {
+    top: -6.875px;
+    right: -6.875px;
+  }
+  .symbol.symbol-25.symbol-circle .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -6.875px;
+  }
+  .symbol.symbol-25.symbol-fixed .symbol-label {
+    width: 25px;
+    height: 25px;
+  }
+  .symbol.symbol-25.symbol-fixed > img {
+    width: 25px;
+    height: 25px;
+    max-width: auto;
+  }
+  .symbol.symbol-25.symbol-2by3 .symbol-label {
+    height: 25px;
+    width: 37.5px;
+  }
+  .symbol.symbol-25.symbol-2by3 > img {
+    height: 25px;
+    width: 37.5px;
+    max-width: auto;
+  }
+  .symbol.symbol-30 > img {
+    width: 100%;
+    max-width: 30px;
+    height: 30px;
+  }
+  .symbol.symbol-30 .symbol-label {
+    width: 30px;
+    height: 30px;
+  }
+  .symbol.symbol-30 .symbol-badge {
+    width: 12px;
+    height: 12px;
+    top: -6px;
+    right: -6px;
+  }
+  .symbol.symbol-30 .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -6px;
+  }
+  .symbol.symbol-30.symbol-circle .symbol-badge {
+    top: -5.85px;
+    right: -5.85px;
+  }
+  .symbol.symbol-30.symbol-circle .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -5.85px;
+  }
+  .symbol.symbol-30.symbol-fixed .symbol-label {
+    width: 30px;
+    height: 30px;
+  }
+  .symbol.symbol-30.symbol-fixed > img {
+    width: 30px;
+    height: 30px;
+    max-width: auto;
+  }
+  .symbol.symbol-30.symbol-2by3 .symbol-label {
+    height: 30px;
+    width: 45px;
+  }
+  .symbol.symbol-30.symbol-2by3 > img {
+    height: 30px;
+    width: 45px;
+    max-width: auto;
+  }
+  .symbol.symbol-35 > img {
+    width: 100%;
+    max-width: 35px;
+    height: 35px;
+  }
+  .symbol.symbol-35 .symbol-label {
+    width: 35px;
+    height: 35px;
+  }
+  .symbol.symbol-35 .symbol-badge {
+    width: 12px;
+    height: 12px;
+    top: -6px;
+    right: -6px;
+  }
+  .symbol.symbol-35 .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -6px;
+  }
+  .symbol.symbol-35.symbol-circle .symbol-badge {
+    top: -4.825px;
+    right: -4.825px;
+  }
+  .symbol.symbol-35.symbol-circle .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -4.825px;
+  }
+  .symbol.symbol-35.symbol-fixed .symbol-label {
+    width: 35px;
+    height: 35px;
+  }
+  .symbol.symbol-35.symbol-fixed > img {
+    width: 35px;
+    height: 35px;
+    max-width: auto;
+  }
+  .symbol.symbol-35.symbol-2by3 .symbol-label {
+    height: 35px;
+    width: 52.5px;
+  }
+  .symbol.symbol-35.symbol-2by3 > img {
+    height: 35px;
+    width: 52.5px;
+    max-width: auto;
+  }
+  .symbol.symbol-40 > img {
+    width: 100%;
+    max-width: 40px;
+    height: 40px;
+  }
+  .symbol.symbol-40 .symbol-label {
+    width: 40px;
+    height: 40px;
+  }
+  .symbol.symbol-40 .symbol-badge {
+    width: 12px;
+    height: 12px;
+    top: -6px;
+    right: -6px;
+  }
+  .symbol.symbol-40 .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -6px;
+  }
+  .symbol.symbol-40.symbol-circle .symbol-badge {
+    top: -3.8px;
+    right: -3.8px;
+  }
+  .symbol.symbol-40.symbol-circle .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -3.8px;
+  }
+  .symbol.symbol-40.symbol-fixed .symbol-label {
+    width: 40px;
+    height: 40px;
+  }
+  .symbol.symbol-40.symbol-fixed > img {
+    width: 40px;
+    height: 40px;
+    max-width: auto;
+  }
+  .symbol.symbol-40.symbol-2by3 .symbol-label {
+    height: 40px;
+    width: 60px;
+  }
+  .symbol.symbol-40.symbol-2by3 > img {
+    height: 40px;
+    width: 60px;
+    max-width: auto;
+  }
+  .symbol.symbol-45 > img {
+    width: 100%;
+    max-width: 45px;
+    height: 45px;
+  }
+  .symbol.symbol-45 .symbol-label {
+    width: 45px;
+    height: 45px;
+  }
+  .symbol.symbol-45 .symbol-badge {
+    width: 12px;
+    height: 12px;
+    top: -6px;
+    right: -6px;
+  }
+  .symbol.symbol-45 .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -6px;
+  }
+  .symbol.symbol-45.symbol-circle .symbol-badge {
+    top: -2.775px;
+    right: -2.775px;
+  }
+  .symbol.symbol-45.symbol-circle .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -2.775px;
+  }
+  .symbol.symbol-45.symbol-fixed .symbol-label {
+    width: 45px;
+    height: 45px;
+  }
+  .symbol.symbol-45.symbol-fixed > img {
+    width: 45px;
+    height: 45px;
+    max-width: auto;
+  }
+  .symbol.symbol-45.symbol-2by3 .symbol-label {
+    height: 45px;
+    width: 67.5px;
+  }
+  .symbol.symbol-45.symbol-2by3 > img {
+    height: 45px;
+    width: 67.5px;
+    max-width: auto;
+  }
+  .symbol > img {
+    width: 100%;
+    max-width: 50px;
+    height: 50px;
+  }
+  .symbol .symbol-label {
+    width: 50px;
+    height: 50px;
+  }
+  .symbol .symbol-badge {
+    width: 12px;
+    height: 12px;
+    top: -6px;
+    right: -6px;
+  }
+  .symbol .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -6px;
+  }
+  .symbol.symbol-circle .symbol-badge {
+    top: -1.75px;
+    right: -1.75px;
+  }
+  .symbol.symbol-circle .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -1.75px;
+  }
+  .symbol.symbol-fixed .symbol-label {
+    width: 50px;
+    height: 50px;
+  }
+  .symbol.symbol-fixed > img {
+    width: 50px;
+    height: 50px;
+    max-width: auto;
+  }
+  .symbol.symbol-2by3 .symbol-label {
+    height: 50px;
+    width: 75px;
+  }
+  .symbol.symbol-2by3 > img {
+    height: 50px;
+    width: 75px;
+    max-width: auto;
+  }
+  .symbol.symbol-50 > img {
+    width: 100%;
+    max-width: 50px;
+    height: 50px;
+  }
+  .symbol.symbol-50 .symbol-label {
+    width: 50px;
+    height: 50px;
+  }
+  .symbol.symbol-50 .symbol-badge {
+    width: 12px;
+    height: 12px;
+    top: -6px;
+    right: -6px;
+  }
+  .symbol.symbol-50 .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -6px;
+  }
+  .symbol.symbol-50.symbol-circle .symbol-badge {
+    top: -1.75px;
+    right: -1.75px;
+  }
+  .symbol.symbol-50.symbol-circle .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -1.75px;
+  }
+  .symbol.symbol-50.symbol-fixed .symbol-label {
+    width: 50px;
+    height: 50px;
+  }
+  .symbol.symbol-50.symbol-fixed > img {
+    width: 50px;
+    height: 50px;
+    max-width: auto;
+  }
+  .symbol.symbol-50.symbol-2by3 .symbol-label {
+    height: 50px;
+    width: 75px;
+  }
+  .symbol.symbol-50.symbol-2by3 > img {
+    height: 50px;
+    width: 75px;
+    max-width: auto;
+  }
+  .symbol.symbol-55 > img {
+    width: 100%;
+    max-width: 55px;
+    height: 55px;
+  }
+  .symbol.symbol-55 .symbol-label {
+    width: 55px;
+    height: 55px;
+  }
+  .symbol.symbol-55 .symbol-badge {
+    width: 12px;
+    height: 12px;
+    top: -6px;
+    right: -6px;
+  }
+  .symbol.symbol-55 .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -6px;
+  }
+  .symbol.symbol-55.symbol-circle .symbol-badge {
+    top: -0.725px;
+    right: -0.725px;
+  }
+  .symbol.symbol-55.symbol-circle .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -0.725px;
+  }
+  .symbol.symbol-55.symbol-fixed .symbol-label {
+    width: 55px;
+    height: 55px;
+  }
+  .symbol.symbol-55.symbol-fixed > img {
+    width: 55px;
+    height: 55px;
+    max-width: auto;
+  }
+  .symbol.symbol-55.symbol-2by3 .symbol-label {
+    height: 55px;
+    width: 82.5px;
+  }
+  .symbol.symbol-55.symbol-2by3 > img {
+    height: 55px;
+    width: 82.5px;
+    max-width: auto;
+  }
+  .symbol.symbol-60 > img {
+    width: 100%;
+    max-width: 60px;
+    height: 60px;
+  }
+  .symbol.symbol-60 .symbol-label {
+    width: 60px;
+    height: 60px;
+  }
+  .symbol.symbol-60 .symbol-badge {
+    width: 12px;
+    height: 12px;
+    top: -6px;
+    right: -6px;
+  }
+  .symbol.symbol-60 .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -6px;
+  }
+  .symbol.symbol-60.symbol-circle .symbol-badge {
+    top: 0.3px;
+    right: 0.3px;
+  }
+  .symbol.symbol-60.symbol-circle .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: 0.3px;
+  }
+  .symbol.symbol-60.symbol-fixed .symbol-label {
+    width: 60px;
+    height: 60px;
+  }
+  .symbol.symbol-60.symbol-fixed > img {
+    width: 60px;
+    height: 60px;
+    max-width: auto;
+  }
+  .symbol.symbol-60.symbol-2by3 .symbol-label {
+    height: 60px;
+    width: 90px;
+  }
+  .symbol.symbol-60.symbol-2by3 > img {
+    height: 60px;
+    width: 90px;
+    max-width: auto;
+  }
+  .symbol.symbol-65 > img {
+    width: 100%;
+    max-width: 65px;
+    height: 65px;
+  }
+  .symbol.symbol-65 .symbol-label {
+    width: 65px;
+    height: 65px;
+  }
+  .symbol.symbol-65 .symbol-badge {
+    width: 12px;
+    height: 12px;
+    top: -6px;
+    right: -6px;
+  }
+  .symbol.symbol-65 .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -6px;
+  }
+  .symbol.symbol-65.symbol-circle .symbol-badge {
+    top: 1.325px;
+    right: 1.325px;
+  }
+  .symbol.symbol-65.symbol-circle .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: 1.325px;
+  }
+  .symbol.symbol-65.symbol-fixed .symbol-label {
+    width: 65px;
+    height: 65px;
+  }
+  .symbol.symbol-65.symbol-fixed > img {
+    width: 65px;
+    height: 65px;
+    max-width: auto;
+  }
+  .symbol.symbol-65.symbol-2by3 .symbol-label {
+    height: 65px;
+    width: 97.5px;
+  }
+  .symbol.symbol-65.symbol-2by3 > img {
+    height: 65px;
+    width: 97.5px;
+    max-width: auto;
+  }
+  .symbol.symbol-70 > img {
+    width: 100%;
+    max-width: 70px;
+    height: 70px;
+  }
+  .symbol.symbol-70 .symbol-label {
+    width: 70px;
+    height: 70px;
+  }
+  .symbol.symbol-70 .symbol-badge {
+    width: 12px;
+    height: 12px;
+    top: -6px;
+    right: -6px;
+  }
+  .symbol.symbol-70 .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -6px;
+  }
+  .symbol.symbol-70.symbol-circle .symbol-badge {
+    top: 2.35px;
+    right: 2.35px;
+  }
+  .symbol.symbol-70.symbol-circle .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: 2.35px;
+  }
+  .symbol.symbol-70.symbol-fixed .symbol-label {
+    width: 70px;
+    height: 70px;
+  }
+  .symbol.symbol-70.symbol-fixed > img {
+    width: 70px;
+    height: 70px;
+    max-width: auto;
+  }
+  .symbol.symbol-70.symbol-2by3 .symbol-label {
+    height: 70px;
+    width: 105px;
+  }
+  .symbol.symbol-70.symbol-2by3 > img {
+    height: 70px;
+    width: 105px;
+    max-width: auto;
+  }
+  .symbol.symbol-75 > img {
+    width: 100%;
+    max-width: 75px;
+    height: 75px;
+  }
+  .symbol.symbol-75 .symbol-label {
+    width: 75px;
+    height: 75px;
+  }
+  .symbol.symbol-75 .symbol-badge {
+    width: 12px;
+    height: 12px;
+    top: -6px;
+    right: -6px;
+  }
+  .symbol.symbol-75 .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -6px;
+  }
+  .symbol.symbol-75.symbol-circle .symbol-badge {
+    top: 3.375px;
+    right: 3.375px;
+  }
+  .symbol.symbol-75.symbol-circle .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: 3.375px;
+  }
+  .symbol.symbol-75.symbol-fixed .symbol-label {
+    width: 75px;
+    height: 75px;
+  }
+  .symbol.symbol-75.symbol-fixed > img {
+    width: 75px;
+    height: 75px;
+    max-width: auto;
+  }
+  .symbol.symbol-75.symbol-2by3 .symbol-label {
+    height: 75px;
+    width: 112.5px;
+  }
+  .symbol.symbol-75.symbol-2by3 > img {
+    height: 75px;
+    width: 112.5px;
+    max-width: auto;
+  }
+  .symbol.symbol-80 > img {
+    width: 100%;
+    max-width: 80px;
+    height: 80px;
+  }
+  .symbol.symbol-80 .symbol-label {
+    width: 80px;
+    height: 80px;
+  }
+  .symbol.symbol-80 .symbol-badge {
+    width: 12px;
+    height: 12px;
+    top: -6px;
+    right: -6px;
+  }
+  .symbol.symbol-80 .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -6px;
+  }
+  .symbol.symbol-80.symbol-circle .symbol-badge {
+    top: 4.4px;
+    right: 4.4px;
+  }
+  .symbol.symbol-80.symbol-circle .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: 4.4px;
+  }
+  .symbol.symbol-80.symbol-fixed .symbol-label {
+    width: 80px;
+    height: 80px;
+  }
+  .symbol.symbol-80.symbol-fixed > img {
+    width: 80px;
+    height: 80px;
+    max-width: auto;
+  }
+  .symbol.symbol-80.symbol-2by3 .symbol-label {
+    height: 80px;
+    width: 120px;
+  }
+  .symbol.symbol-80.symbol-2by3 > img {
+    height: 80px;
+    width: 120px;
+    max-width: auto;
+  }
+  .symbol.symbol-85 > img {
+    width: 100%;
+    max-width: 85px;
+    height: 85px;
+  }
+  .symbol.symbol-85 .symbol-label {
+    width: 85px;
+    height: 85px;
+  }
+  .symbol.symbol-85 .symbol-badge {
+    width: 12px;
+    height: 12px;
+    top: -6px;
+    right: -6px;
+  }
+  .symbol.symbol-85 .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -6px;
+  }
+  .symbol.symbol-85.symbol-circle .symbol-badge {
+    top: 5.425px;
+    right: 5.425px;
+  }
+  .symbol.symbol-85.symbol-circle .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: 5.425px;
+  }
+  .symbol.symbol-85.symbol-fixed .symbol-label {
+    width: 85px;
+    height: 85px;
+  }
+  .symbol.symbol-85.symbol-fixed > img {
+    width: 85px;
+    height: 85px;
+    max-width: auto;
+  }
+  .symbol.symbol-85.symbol-2by3 .symbol-label {
+    height: 85px;
+    width: 127.5px;
+  }
+  .symbol.symbol-85.symbol-2by3 > img {
+    height: 85px;
+    width: 127.5px;
+    max-width: auto;
+  }
+  .symbol.symbol-90 > img {
+    width: 100%;
+    max-width: 90px;
+    height: 90px;
+  }
+  .symbol.symbol-90 .symbol-label {
+    width: 90px;
+    height: 90px;
+  }
+  .symbol.symbol-90 .symbol-badge {
+    width: 12px;
+    height: 12px;
+    top: -6px;
+    right: -6px;
+  }
+  .symbol.symbol-90 .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -6px;
+  }
+  .symbol.symbol-90.symbol-circle .symbol-badge {
+    top: 6.45px;
+    right: 6.45px;
+  }
+  .symbol.symbol-90.symbol-circle .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: 6.45px;
+  }
+  .symbol.symbol-90.symbol-fixed .symbol-label {
+    width: 90px;
+    height: 90px;
+  }
+  .symbol.symbol-90.symbol-fixed > img {
+    width: 90px;
+    height: 90px;
+    max-width: auto;
+  }
+  .symbol.symbol-90.symbol-2by3 .symbol-label {
+    height: 90px;
+    width: 135px;
+  }
+  .symbol.symbol-90.symbol-2by3 > img {
+    height: 90px;
+    width: 135px;
+    max-width: auto;
+  }
+  .symbol.symbol-95 > img {
+    width: 100%;
+    max-width: 95px;
+    height: 95px;
+  }
+  .symbol.symbol-95 .symbol-label {
+    width: 95px;
+    height: 95px;
+  }
+  .symbol.symbol-95 .symbol-badge {
+    width: 12px;
+    height: 12px;
+    top: -6px;
+    right: -6px;
+  }
+  .symbol.symbol-95 .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -6px;
+  }
+  .symbol.symbol-95.symbol-circle .symbol-badge {
+    top: 7.475px;
+    right: 7.475px;
+  }
+  .symbol.symbol-95.symbol-circle .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: 7.475px;
+  }
+  .symbol.symbol-95.symbol-fixed .symbol-label {
+    width: 95px;
+    height: 95px;
+  }
+  .symbol.symbol-95.symbol-fixed > img {
+    width: 95px;
+    height: 95px;
+    max-width: auto;
+  }
+  .symbol.symbol-95.symbol-2by3 .symbol-label {
+    height: 95px;
+    width: 142.5px;
+  }
+  .symbol.symbol-95.symbol-2by3 > img {
+    height: 95px;
+    width: 142.5px;
+    max-width: auto;
+  }
+  .symbol.symbol-100 > img {
+    width: 100%;
+    max-width: 100px;
+    height: 100px;
+  }
+  .symbol.symbol-100 .symbol-label {
+    width: 100px;
+    height: 100px;
+  }
+  .symbol.symbol-100 .symbol-badge {
+    width: 12px;
+    height: 12px;
+    top: -6px;
+    right: -6px;
+  }
+  .symbol.symbol-100 .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -6px;
+  }
+  .symbol.symbol-100.symbol-circle .symbol-badge {
+    top: 8.5px;
+    right: 8.5px;
+  }
+  .symbol.symbol-100.symbol-circle .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: 8.5px;
+  }
+  .symbol.symbol-100.symbol-fixed .symbol-label {
+    width: 100px;
+    height: 100px;
+  }
+  .symbol.symbol-100.symbol-fixed > img {
+    width: 100px;
+    height: 100px;
+    max-width: auto;
+  }
+  .symbol.symbol-100.symbol-2by3 .symbol-label {
+    height: 100px;
+    width: 150px;
+  }
+  .symbol.symbol-100.symbol-2by3 > img {
+    height: 100px;
+    width: 150px;
+    max-width: auto;
+  }
+  .symbol.symbol-120 > img {
+    width: 100%;
+    max-width: 120px;
+    height: 120px;
+  }
+  .symbol.symbol-120 .symbol-label {
+    width: 120px;
+    height: 120px;
+  }
+  .symbol.symbol-120 .symbol-badge {
+    width: 12px;
+    height: 12px;
+    top: -6px;
+    right: -6px;
+  }
+  .symbol.symbol-120 .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -6px;
+  }
+  .symbol.symbol-120.symbol-circle .symbol-badge {
+    top: 12.6px;
+    right: 12.6px;
+  }
+  .symbol.symbol-120.symbol-circle .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: 12.6px;
+  }
+  .symbol.symbol-120.symbol-fixed .symbol-label {
+    width: 120px;
+    height: 120px;
+  }
+  .symbol.symbol-120.symbol-fixed > img {
+    width: 120px;
+    height: 120px;
+    max-width: auto;
+  }
+  .symbol.symbol-120.symbol-2by3 .symbol-label {
+    height: 120px;
+    width: 180px;
+  }
+  .symbol.symbol-120.symbol-2by3 > img {
+    height: 120px;
+    width: 180px;
+    max-width: auto;
+  }
+  .symbol.symbol-130 > img {
+    width: 100%;
+    max-width: 130px;
+    height: 130px;
+  }
+  .symbol.symbol-130 .symbol-label {
+    width: 130px;
+    height: 130px;
+  }
+  .symbol.symbol-130 .symbol-badge {
+    width: 12px;
+    height: 12px;
+    top: -6px;
+    right: -6px;
+  }
+  .symbol.symbol-130 .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -6px;
+  }
+  .symbol.symbol-130.symbol-circle .symbol-badge {
+    top: 14.65px;
+    right: 14.65px;
+  }
+  .symbol.symbol-130.symbol-circle .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: 14.65px;
+  }
+  .symbol.symbol-130.symbol-fixed .symbol-label {
+    width: 130px;
+    height: 130px;
+  }
+  .symbol.symbol-130.symbol-fixed > img {
+    width: 130px;
+    height: 130px;
+    max-width: auto;
+  }
+  .symbol.symbol-130.symbol-2by3 .symbol-label {
+    height: 130px;
+    width: 195px;
+  }
+  .symbol.symbol-130.symbol-2by3 > img {
+    height: 130px;
+    width: 195px;
+    max-width: auto;
+  }
+  .symbol.symbol-140 > img {
+    width: 100%;
+    max-width: 140px;
+    height: 140px;
+  }
+  .symbol.symbol-140 .symbol-label {
+    width: 140px;
+    height: 140px;
+  }
+  .symbol.symbol-140 .symbol-badge {
+    width: 12px;
+    height: 12px;
+    top: -6px;
+    right: -6px;
+  }
+  .symbol.symbol-140 .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -6px;
+  }
+  .symbol.symbol-140.symbol-circle .symbol-badge {
+    top: 16.7px;
+    right: 16.7px;
+  }
+  .symbol.symbol-140.symbol-circle .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: 16.7px;
+  }
+  .symbol.symbol-140.symbol-fixed .symbol-label {
+    width: 140px;
+    height: 140px;
+  }
+  .symbol.symbol-140.symbol-fixed > img {
+    width: 140px;
+    height: 140px;
+    max-width: auto;
+  }
+  .symbol.symbol-140.symbol-2by3 .symbol-label {
+    height: 140px;
+    width: 210px;
+  }
+  .symbol.symbol-140.symbol-2by3 > img {
+    height: 140px;
+    width: 210px;
+    max-width: auto;
+  }
+  .symbol.symbol-150 > img {
+    width: 100%;
+    max-width: 150px;
+    height: 150px;
+  }
+  .symbol.symbol-150 .symbol-label {
+    width: 150px;
+    height: 150px;
+  }
+  .symbol.symbol-150 .symbol-badge {
+    width: 12px;
+    height: 12px;
+    top: -6px;
+    right: -6px;
+  }
+  .symbol.symbol-150 .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: -6px;
+  }
+  .symbol.symbol-150.symbol-circle .symbol-badge {
+    top: 18.75px;
+    right: 18.75px;
+  }
+  .symbol.symbol-150.symbol-circle .symbol-badge.symbol-badge-bottom {
+    top: auto;
+    bottom: 18.75px;
+  }
+  .symbol.symbol-150.symbol-fixed .symbol-label {
+    width: 150px;
+    height: 150px;
+  }
+  .symbol.symbol-150.symbol-fixed > img {
+    width: 150px;
+    height: 150px;
+    max-width: auto;
+  }
+  .symbol.symbol-150.symbol-2by3 .symbol-label {
+    height: 150px;
+    width: 225px;
+  }
+  .symbol.symbol-150.symbol-2by3 > img {
+    height: 150px;
+    width: 225px;
+    max-width: auto;
+  }
+  @media (min-width: 576px) {
+    .symbol.symbol-sm-20 > img {
+      width: 100%;
+      max-width: 20px;
+      height: 20px;
+    }
+    .symbol.symbol-sm-20 .symbol-label {
+      width: 20px;
+      height: 20px;
+    }
+    .symbol.symbol-sm-20 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-sm-20 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-sm-20.symbol-circle .symbol-badge {
+      top: -7.9px;
+      right: -7.9px;
+    }
+    .symbol.symbol-sm-20.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -7.9px;
+    }
+    .symbol.symbol-sm-20.symbol-fixed .symbol-label {
+      width: 20px;
+      height: 20px;
+    }
+    .symbol.symbol-sm-20.symbol-fixed > img {
+      width: 20px;
+      height: 20px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-20.symbol-2by3 .symbol-label {
+      height: 20px;
+      width: 30px;
+    }
+    .symbol.symbol-sm-20.symbol-2by3 > img {
+      height: 20px;
+      width: 30px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-25 > img {
+      width: 100%;
+      max-width: 25px;
+      height: 25px;
+    }
+    .symbol.symbol-sm-25 .symbol-label {
+      width: 25px;
+      height: 25px;
+    }
+    .symbol.symbol-sm-25 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-sm-25 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-sm-25.symbol-circle .symbol-badge {
+      top: -6.875px;
+      right: -6.875px;
+    }
+    .symbol.symbol-sm-25.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6.875px;
+    }
+    .symbol.symbol-sm-25.symbol-fixed .symbol-label {
+      width: 25px;
+      height: 25px;
+    }
+    .symbol.symbol-sm-25.symbol-fixed > img {
+      width: 25px;
+      height: 25px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-25.symbol-2by3 .symbol-label {
+      height: 25px;
+      width: 37.5px;
+    }
+    .symbol.symbol-sm-25.symbol-2by3 > img {
+      height: 25px;
+      width: 37.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-30 > img {
+      width: 100%;
+      max-width: 30px;
+      height: 30px;
+    }
+    .symbol.symbol-sm-30 .symbol-label {
+      width: 30px;
+      height: 30px;
+    }
+    .symbol.symbol-sm-30 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-sm-30 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-sm-30.symbol-circle .symbol-badge {
+      top: -5.85px;
+      right: -5.85px;
+    }
+    .symbol.symbol-sm-30.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -5.85px;
+    }
+    .symbol.symbol-sm-30.symbol-fixed .symbol-label {
+      width: 30px;
+      height: 30px;
+    }
+    .symbol.symbol-sm-30.symbol-fixed > img {
+      width: 30px;
+      height: 30px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-30.symbol-2by3 .symbol-label {
+      height: 30px;
+      width: 45px;
+    }
+    .symbol.symbol-sm-30.symbol-2by3 > img {
+      height: 30px;
+      width: 45px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-35 > img {
+      width: 100%;
+      max-width: 35px;
+      height: 35px;
+    }
+    .symbol.symbol-sm-35 .symbol-label {
+      width: 35px;
+      height: 35px;
+    }
+    .symbol.symbol-sm-35 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-sm-35 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-sm-35.symbol-circle .symbol-badge {
+      top: -4.825px;
+      right: -4.825px;
+    }
+    .symbol.symbol-sm-35.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -4.825px;
+    }
+    .symbol.symbol-sm-35.symbol-fixed .symbol-label {
+      width: 35px;
+      height: 35px;
+    }
+    .symbol.symbol-sm-35.symbol-fixed > img {
+      width: 35px;
+      height: 35px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-35.symbol-2by3 .symbol-label {
+      height: 35px;
+      width: 52.5px;
+    }
+    .symbol.symbol-sm-35.symbol-2by3 > img {
+      height: 35px;
+      width: 52.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-40 > img {
+      width: 100%;
+      max-width: 40px;
+      height: 40px;
+    }
+    .symbol.symbol-sm-40 .symbol-label {
+      width: 40px;
+      height: 40px;
+    }
+    .symbol.symbol-sm-40 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-sm-40 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-sm-40.symbol-circle .symbol-badge {
+      top: -3.8px;
+      right: -3.8px;
+    }
+    .symbol.symbol-sm-40.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -3.8px;
+    }
+    .symbol.symbol-sm-40.symbol-fixed .symbol-label {
+      width: 40px;
+      height: 40px;
+    }
+    .symbol.symbol-sm-40.symbol-fixed > img {
+      width: 40px;
+      height: 40px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-40.symbol-2by3 .symbol-label {
+      height: 40px;
+      width: 60px;
+    }
+    .symbol.symbol-sm-40.symbol-2by3 > img {
+      height: 40px;
+      width: 60px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-45 > img {
+      width: 100%;
+      max-width: 45px;
+      height: 45px;
+    }
+    .symbol.symbol-sm-45 .symbol-label {
+      width: 45px;
+      height: 45px;
+    }
+    .symbol.symbol-sm-45 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-sm-45 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-sm-45.symbol-circle .symbol-badge {
+      top: -2.775px;
+      right: -2.775px;
+    }
+    .symbol.symbol-sm-45.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -2.775px;
+    }
+    .symbol.symbol-sm-45.symbol-fixed .symbol-label {
+      width: 45px;
+      height: 45px;
+    }
+    .symbol.symbol-sm-45.symbol-fixed > img {
+      width: 45px;
+      height: 45px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-45.symbol-2by3 .symbol-label {
+      height: 45px;
+      width: 67.5px;
+    }
+    .symbol.symbol-sm-45.symbol-2by3 > img {
+      height: 45px;
+      width: 67.5px;
+      max-width: auto;
+    }
+    .symbol > img {
+      width: 100%;
+      max-width: 50px;
+      height: 50px;
+    }
+    .symbol .symbol-label {
+      width: 50px;
+      height: 50px;
+    }
+    .symbol .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-circle .symbol-badge {
+      top: -1.75px;
+      right: -1.75px;
+    }
+    .symbol.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -1.75px;
+    }
+    .symbol.symbol-fixed .symbol-label {
+      width: 50px;
+      height: 50px;
+    }
+    .symbol.symbol-fixed > img {
+      width: 50px;
+      height: 50px;
+      max-width: auto;
+    }
+    .symbol.symbol-2by3 .symbol-label {
+      height: 50px;
+      width: 75px;
+    }
+    .symbol.symbol-2by3 > img {
+      height: 50px;
+      width: 75px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-50 > img {
+      width: 100%;
+      max-width: 50px;
+      height: 50px;
+    }
+    .symbol.symbol-sm-50 .symbol-label {
+      width: 50px;
+      height: 50px;
+    }
+    .symbol.symbol-sm-50 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-sm-50 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-sm-50.symbol-circle .symbol-badge {
+      top: -1.75px;
+      right: -1.75px;
+    }
+    .symbol.symbol-sm-50.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -1.75px;
+    }
+    .symbol.symbol-sm-50.symbol-fixed .symbol-label {
+      width: 50px;
+      height: 50px;
+    }
+    .symbol.symbol-sm-50.symbol-fixed > img {
+      width: 50px;
+      height: 50px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-50.symbol-2by3 .symbol-label {
+      height: 50px;
+      width: 75px;
+    }
+    .symbol.symbol-sm-50.symbol-2by3 > img {
+      height: 50px;
+      width: 75px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-55 > img {
+      width: 100%;
+      max-width: 55px;
+      height: 55px;
+    }
+    .symbol.symbol-sm-55 .symbol-label {
+      width: 55px;
+      height: 55px;
+    }
+    .symbol.symbol-sm-55 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-sm-55 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-sm-55.symbol-circle .symbol-badge {
+      top: -0.725px;
+      right: -0.725px;
+    }
+    .symbol.symbol-sm-55.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -0.725px;
+    }
+    .symbol.symbol-sm-55.symbol-fixed .symbol-label {
+      width: 55px;
+      height: 55px;
+    }
+    .symbol.symbol-sm-55.symbol-fixed > img {
+      width: 55px;
+      height: 55px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-55.symbol-2by3 .symbol-label {
+      height: 55px;
+      width: 82.5px;
+    }
+    .symbol.symbol-sm-55.symbol-2by3 > img {
+      height: 55px;
+      width: 82.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-60 > img {
+      width: 100%;
+      max-width: 60px;
+      height: 60px;
+    }
+    .symbol.symbol-sm-60 .symbol-label {
+      width: 60px;
+      height: 60px;
+    }
+    .symbol.symbol-sm-60 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-sm-60 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-sm-60.symbol-circle .symbol-badge {
+      top: 0.3px;
+      right: 0.3px;
+    }
+    .symbol.symbol-sm-60.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 0.3px;
+    }
+    .symbol.symbol-sm-60.symbol-fixed .symbol-label {
+      width: 60px;
+      height: 60px;
+    }
+    .symbol.symbol-sm-60.symbol-fixed > img {
+      width: 60px;
+      height: 60px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-60.symbol-2by3 .symbol-label {
+      height: 60px;
+      width: 90px;
+    }
+    .symbol.symbol-sm-60.symbol-2by3 > img {
+      height: 60px;
+      width: 90px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-65 > img {
+      width: 100%;
+      max-width: 65px;
+      height: 65px;
+    }
+    .symbol.symbol-sm-65 .symbol-label {
+      width: 65px;
+      height: 65px;
+    }
+    .symbol.symbol-sm-65 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-sm-65 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-sm-65.symbol-circle .symbol-badge {
+      top: 1.325px;
+      right: 1.325px;
+    }
+    .symbol.symbol-sm-65.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 1.325px;
+    }
+    .symbol.symbol-sm-65.symbol-fixed .symbol-label {
+      width: 65px;
+      height: 65px;
+    }
+    .symbol.symbol-sm-65.symbol-fixed > img {
+      width: 65px;
+      height: 65px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-65.symbol-2by3 .symbol-label {
+      height: 65px;
+      width: 97.5px;
+    }
+    .symbol.symbol-sm-65.symbol-2by3 > img {
+      height: 65px;
+      width: 97.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-70 > img {
+      width: 100%;
+      max-width: 70px;
+      height: 70px;
+    }
+    .symbol.symbol-sm-70 .symbol-label {
+      width: 70px;
+      height: 70px;
+    }
+    .symbol.symbol-sm-70 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-sm-70 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-sm-70.symbol-circle .symbol-badge {
+      top: 2.35px;
+      right: 2.35px;
+    }
+    .symbol.symbol-sm-70.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 2.35px;
+    }
+    .symbol.symbol-sm-70.symbol-fixed .symbol-label {
+      width: 70px;
+      height: 70px;
+    }
+    .symbol.symbol-sm-70.symbol-fixed > img {
+      width: 70px;
+      height: 70px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-70.symbol-2by3 .symbol-label {
+      height: 70px;
+      width: 105px;
+    }
+    .symbol.symbol-sm-70.symbol-2by3 > img {
+      height: 70px;
+      width: 105px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-75 > img {
+      width: 100%;
+      max-width: 75px;
+      height: 75px;
+    }
+    .symbol.symbol-sm-75 .symbol-label {
+      width: 75px;
+      height: 75px;
+    }
+    .symbol.symbol-sm-75 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-sm-75 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-sm-75.symbol-circle .symbol-badge {
+      top: 3.375px;
+      right: 3.375px;
+    }
+    .symbol.symbol-sm-75.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 3.375px;
+    }
+    .symbol.symbol-sm-75.symbol-fixed .symbol-label {
+      width: 75px;
+      height: 75px;
+    }
+    .symbol.symbol-sm-75.symbol-fixed > img {
+      width: 75px;
+      height: 75px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-75.symbol-2by3 .symbol-label {
+      height: 75px;
+      width: 112.5px;
+    }
+    .symbol.symbol-sm-75.symbol-2by3 > img {
+      height: 75px;
+      width: 112.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-80 > img {
+      width: 100%;
+      max-width: 80px;
+      height: 80px;
+    }
+    .symbol.symbol-sm-80 .symbol-label {
+      width: 80px;
+      height: 80px;
+    }
+    .symbol.symbol-sm-80 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-sm-80 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-sm-80.symbol-circle .symbol-badge {
+      top: 4.4px;
+      right: 4.4px;
+    }
+    .symbol.symbol-sm-80.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 4.4px;
+    }
+    .symbol.symbol-sm-80.symbol-fixed .symbol-label {
+      width: 80px;
+      height: 80px;
+    }
+    .symbol.symbol-sm-80.symbol-fixed > img {
+      width: 80px;
+      height: 80px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-80.symbol-2by3 .symbol-label {
+      height: 80px;
+      width: 120px;
+    }
+    .symbol.symbol-sm-80.symbol-2by3 > img {
+      height: 80px;
+      width: 120px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-85 > img {
+      width: 100%;
+      max-width: 85px;
+      height: 85px;
+    }
+    .symbol.symbol-sm-85 .symbol-label {
+      width: 85px;
+      height: 85px;
+    }
+    .symbol.symbol-sm-85 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-sm-85 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-sm-85.symbol-circle .symbol-badge {
+      top: 5.425px;
+      right: 5.425px;
+    }
+    .symbol.symbol-sm-85.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 5.425px;
+    }
+    .symbol.symbol-sm-85.symbol-fixed .symbol-label {
+      width: 85px;
+      height: 85px;
+    }
+    .symbol.symbol-sm-85.symbol-fixed > img {
+      width: 85px;
+      height: 85px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-85.symbol-2by3 .symbol-label {
+      height: 85px;
+      width: 127.5px;
+    }
+    .symbol.symbol-sm-85.symbol-2by3 > img {
+      height: 85px;
+      width: 127.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-90 > img {
+      width: 100%;
+      max-width: 90px;
+      height: 90px;
+    }
+    .symbol.symbol-sm-90 .symbol-label {
+      width: 90px;
+      height: 90px;
+    }
+    .symbol.symbol-sm-90 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-sm-90 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-sm-90.symbol-circle .symbol-badge {
+      top: 6.45px;
+      right: 6.45px;
+    }
+    .symbol.symbol-sm-90.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 6.45px;
+    }
+    .symbol.symbol-sm-90.symbol-fixed .symbol-label {
+      width: 90px;
+      height: 90px;
+    }
+    .symbol.symbol-sm-90.symbol-fixed > img {
+      width: 90px;
+      height: 90px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-90.symbol-2by3 .symbol-label {
+      height: 90px;
+      width: 135px;
+    }
+    .symbol.symbol-sm-90.symbol-2by3 > img {
+      height: 90px;
+      width: 135px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-95 > img {
+      width: 100%;
+      max-width: 95px;
+      height: 95px;
+    }
+    .symbol.symbol-sm-95 .symbol-label {
+      width: 95px;
+      height: 95px;
+    }
+    .symbol.symbol-sm-95 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-sm-95 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-sm-95.symbol-circle .symbol-badge {
+      top: 7.475px;
+      right: 7.475px;
+    }
+    .symbol.symbol-sm-95.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 7.475px;
+    }
+    .symbol.symbol-sm-95.symbol-fixed .symbol-label {
+      width: 95px;
+      height: 95px;
+    }
+    .symbol.symbol-sm-95.symbol-fixed > img {
+      width: 95px;
+      height: 95px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-95.symbol-2by3 .symbol-label {
+      height: 95px;
+      width: 142.5px;
+    }
+    .symbol.symbol-sm-95.symbol-2by3 > img {
+      height: 95px;
+      width: 142.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-100 > img {
+      width: 100%;
+      max-width: 100px;
+      height: 100px;
+    }
+    .symbol.symbol-sm-100 .symbol-label {
+      width: 100px;
+      height: 100px;
+    }
+    .symbol.symbol-sm-100 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-sm-100 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-sm-100.symbol-circle .symbol-badge {
+      top: 8.5px;
+      right: 8.5px;
+    }
+    .symbol.symbol-sm-100.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 8.5px;
+    }
+    .symbol.symbol-sm-100.symbol-fixed .symbol-label {
+      width: 100px;
+      height: 100px;
+    }
+    .symbol.symbol-sm-100.symbol-fixed > img {
+      width: 100px;
+      height: 100px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-100.symbol-2by3 .symbol-label {
+      height: 100px;
+      width: 150px;
+    }
+    .symbol.symbol-sm-100.symbol-2by3 > img {
+      height: 100px;
+      width: 150px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-120 > img {
+      width: 100%;
+      max-width: 120px;
+      height: 120px;
+    }
+    .symbol.symbol-sm-120 .symbol-label {
+      width: 120px;
+      height: 120px;
+    }
+    .symbol.symbol-sm-120 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-sm-120 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-sm-120.symbol-circle .symbol-badge {
+      top: 12.6px;
+      right: 12.6px;
+    }
+    .symbol.symbol-sm-120.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 12.6px;
+    }
+    .symbol.symbol-sm-120.symbol-fixed .symbol-label {
+      width: 120px;
+      height: 120px;
+    }
+    .symbol.symbol-sm-120.symbol-fixed > img {
+      width: 120px;
+      height: 120px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-120.symbol-2by3 .symbol-label {
+      height: 120px;
+      width: 180px;
+    }
+    .symbol.symbol-sm-120.symbol-2by3 > img {
+      height: 120px;
+      width: 180px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-130 > img {
+      width: 100%;
+      max-width: 130px;
+      height: 130px;
+    }
+    .symbol.symbol-sm-130 .symbol-label {
+      width: 130px;
+      height: 130px;
+    }
+    .symbol.symbol-sm-130 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-sm-130 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-sm-130.symbol-circle .symbol-badge {
+      top: 14.65px;
+      right: 14.65px;
+    }
+    .symbol.symbol-sm-130.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 14.65px;
+    }
+    .symbol.symbol-sm-130.symbol-fixed .symbol-label {
+      width: 130px;
+      height: 130px;
+    }
+    .symbol.symbol-sm-130.symbol-fixed > img {
+      width: 130px;
+      height: 130px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-130.symbol-2by3 .symbol-label {
+      height: 130px;
+      width: 195px;
+    }
+    .symbol.symbol-sm-130.symbol-2by3 > img {
+      height: 130px;
+      width: 195px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-140 > img {
+      width: 100%;
+      max-width: 140px;
+      height: 140px;
+    }
+    .symbol.symbol-sm-140 .symbol-label {
+      width: 140px;
+      height: 140px;
+    }
+    .symbol.symbol-sm-140 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-sm-140 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-sm-140.symbol-circle .symbol-badge {
+      top: 16.7px;
+      right: 16.7px;
+    }
+    .symbol.symbol-sm-140.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 16.7px;
+    }
+    .symbol.symbol-sm-140.symbol-fixed .symbol-label {
+      width: 140px;
+      height: 140px;
+    }
+    .symbol.symbol-sm-140.symbol-fixed > img {
+      width: 140px;
+      height: 140px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-140.symbol-2by3 .symbol-label {
+      height: 140px;
+      width: 210px;
+    }
+    .symbol.symbol-sm-140.symbol-2by3 > img {
+      height: 140px;
+      width: 210px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-150 > img {
+      width: 100%;
+      max-width: 150px;
+      height: 150px;
+    }
+    .symbol.symbol-sm-150 .symbol-label {
+      width: 150px;
+      height: 150px;
+    }
+    .symbol.symbol-sm-150 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-sm-150 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-sm-150.symbol-circle .symbol-badge {
+      top: 18.75px;
+      right: 18.75px;
+    }
+    .symbol.symbol-sm-150.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 18.75px;
+    }
+    .symbol.symbol-sm-150.symbol-fixed .symbol-label {
+      width: 150px;
+      height: 150px;
+    }
+    .symbol.symbol-sm-150.symbol-fixed > img {
+      width: 150px;
+      height: 150px;
+      max-width: auto;
+    }
+    .symbol.symbol-sm-150.symbol-2by3 .symbol-label {
+      height: 150px;
+      width: 225px;
+    }
+    .symbol.symbol-sm-150.symbol-2by3 > img {
+      height: 150px;
+      width: 225px;
+      max-width: auto;
+    }
+  }
+  @media (min-width: 768px) {
+    .symbol.symbol-md-20 > img {
+      width: 100%;
+      max-width: 20px;
+      height: 20px;
+    }
+    .symbol.symbol-md-20 .symbol-label {
+      width: 20px;
+      height: 20px;
+    }
+    .symbol.symbol-md-20 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-md-20 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-md-20.symbol-circle .symbol-badge {
+      top: -7.9px;
+      right: -7.9px;
+    }
+    .symbol.symbol-md-20.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -7.9px;
+    }
+    .symbol.symbol-md-20.symbol-fixed .symbol-label {
+      width: 20px;
+      height: 20px;
+    }
+    .symbol.symbol-md-20.symbol-fixed > img {
+      width: 20px;
+      height: 20px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-20.symbol-2by3 .symbol-label {
+      height: 20px;
+      width: 30px;
+    }
+    .symbol.symbol-md-20.symbol-2by3 > img {
+      height: 20px;
+      width: 30px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-25 > img {
+      width: 100%;
+      max-width: 25px;
+      height: 25px;
+    }
+    .symbol.symbol-md-25 .symbol-label {
+      width: 25px;
+      height: 25px;
+    }
+    .symbol.symbol-md-25 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-md-25 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-md-25.symbol-circle .symbol-badge {
+      top: -6.875px;
+      right: -6.875px;
+    }
+    .symbol.symbol-md-25.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6.875px;
+    }
+    .symbol.symbol-md-25.symbol-fixed .symbol-label {
+      width: 25px;
+      height: 25px;
+    }
+    .symbol.symbol-md-25.symbol-fixed > img {
+      width: 25px;
+      height: 25px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-25.symbol-2by3 .symbol-label {
+      height: 25px;
+      width: 37.5px;
+    }
+    .symbol.symbol-md-25.symbol-2by3 > img {
+      height: 25px;
+      width: 37.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-30 > img {
+      width: 100%;
+      max-width: 30px;
+      height: 30px;
+    }
+    .symbol.symbol-md-30 .symbol-label {
+      width: 30px;
+      height: 30px;
+    }
+    .symbol.symbol-md-30 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-md-30 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-md-30.symbol-circle .symbol-badge {
+      top: -5.85px;
+      right: -5.85px;
+    }
+    .symbol.symbol-md-30.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -5.85px;
+    }
+    .symbol.symbol-md-30.symbol-fixed .symbol-label {
+      width: 30px;
+      height: 30px;
+    }
+    .symbol.symbol-md-30.symbol-fixed > img {
+      width: 30px;
+      height: 30px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-30.symbol-2by3 .symbol-label {
+      height: 30px;
+      width: 45px;
+    }
+    .symbol.symbol-md-30.symbol-2by3 > img {
+      height: 30px;
+      width: 45px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-35 > img {
+      width: 100%;
+      max-width: 35px;
+      height: 35px;
+    }
+    .symbol.symbol-md-35 .symbol-label {
+      width: 35px;
+      height: 35px;
+    }
+    .symbol.symbol-md-35 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-md-35 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-md-35.symbol-circle .symbol-badge {
+      top: -4.825px;
+      right: -4.825px;
+    }
+    .symbol.symbol-md-35.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -4.825px;
+    }
+    .symbol.symbol-md-35.symbol-fixed .symbol-label {
+      width: 35px;
+      height: 35px;
+    }
+    .symbol.symbol-md-35.symbol-fixed > img {
+      width: 35px;
+      height: 35px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-35.symbol-2by3 .symbol-label {
+      height: 35px;
+      width: 52.5px;
+    }
+    .symbol.symbol-md-35.symbol-2by3 > img {
+      height: 35px;
+      width: 52.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-40 > img {
+      width: 100%;
+      max-width: 40px;
+      height: 40px;
+    }
+    .symbol.symbol-md-40 .symbol-label {
+      width: 40px;
+      height: 40px;
+    }
+    .symbol.symbol-md-40 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-md-40 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-md-40.symbol-circle .symbol-badge {
+      top: -3.8px;
+      right: -3.8px;
+    }
+    .symbol.symbol-md-40.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -3.8px;
+    }
+    .symbol.symbol-md-40.symbol-fixed .symbol-label {
+      width: 40px;
+      height: 40px;
+    }
+    .symbol.symbol-md-40.symbol-fixed > img {
+      width: 40px;
+      height: 40px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-40.symbol-2by3 .symbol-label {
+      height: 40px;
+      width: 60px;
+    }
+    .symbol.symbol-md-40.symbol-2by3 > img {
+      height: 40px;
+      width: 60px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-45 > img {
+      width: 100%;
+      max-width: 45px;
+      height: 45px;
+    }
+    .symbol.symbol-md-45 .symbol-label {
+      width: 45px;
+      height: 45px;
+    }
+    .symbol.symbol-md-45 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-md-45 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-md-45.symbol-circle .symbol-badge {
+      top: -2.775px;
+      right: -2.775px;
+    }
+    .symbol.symbol-md-45.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -2.775px;
+    }
+    .symbol.symbol-md-45.symbol-fixed .symbol-label {
+      width: 45px;
+      height: 45px;
+    }
+    .symbol.symbol-md-45.symbol-fixed > img {
+      width: 45px;
+      height: 45px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-45.symbol-2by3 .symbol-label {
+      height: 45px;
+      width: 67.5px;
+    }
+    .symbol.symbol-md-45.symbol-2by3 > img {
+      height: 45px;
+      width: 67.5px;
+      max-width: auto;
+    }
+    .symbol > img {
+      width: 100%;
+      max-width: 50px;
+      height: 50px;
+    }
+    .symbol .symbol-label {
+      width: 50px;
+      height: 50px;
+    }
+    .symbol .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-circle .symbol-badge {
+      top: -1.75px;
+      right: -1.75px;
+    }
+    .symbol.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -1.75px;
+    }
+    .symbol.symbol-fixed .symbol-label {
+      width: 50px;
+      height: 50px;
+    }
+    .symbol.symbol-fixed > img {
+      width: 50px;
+      height: 50px;
+      max-width: auto;
+    }
+    .symbol.symbol-2by3 .symbol-label {
+      height: 50px;
+      width: 75px;
+    }
+    .symbol.symbol-2by3 > img {
+      height: 50px;
+      width: 75px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-50 > img {
+      width: 100%;
+      max-width: 50px;
+      height: 50px;
+    }
+    .symbol.symbol-md-50 .symbol-label {
+      width: 50px;
+      height: 50px;
+    }
+    .symbol.symbol-md-50 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-md-50 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-md-50.symbol-circle .symbol-badge {
+      top: -1.75px;
+      right: -1.75px;
+    }
+    .symbol.symbol-md-50.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -1.75px;
+    }
+    .symbol.symbol-md-50.symbol-fixed .symbol-label {
+      width: 50px;
+      height: 50px;
+    }
+    .symbol.symbol-md-50.symbol-fixed > img {
+      width: 50px;
+      height: 50px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-50.symbol-2by3 .symbol-label {
+      height: 50px;
+      width: 75px;
+    }
+    .symbol.symbol-md-50.symbol-2by3 > img {
+      height: 50px;
+      width: 75px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-55 > img {
+      width: 100%;
+      max-width: 55px;
+      height: 55px;
+    }
+    .symbol.symbol-md-55 .symbol-label {
+      width: 55px;
+      height: 55px;
+    }
+    .symbol.symbol-md-55 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-md-55 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-md-55.symbol-circle .symbol-badge {
+      top: -0.725px;
+      right: -0.725px;
+    }
+    .symbol.symbol-md-55.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -0.725px;
+    }
+    .symbol.symbol-md-55.symbol-fixed .symbol-label {
+      width: 55px;
+      height: 55px;
+    }
+    .symbol.symbol-md-55.symbol-fixed > img {
+      width: 55px;
+      height: 55px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-55.symbol-2by3 .symbol-label {
+      height: 55px;
+      width: 82.5px;
+    }
+    .symbol.symbol-md-55.symbol-2by3 > img {
+      height: 55px;
+      width: 82.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-60 > img {
+      width: 100%;
+      max-width: 60px;
+      height: 60px;
+    }
+    .symbol.symbol-md-60 .symbol-label {
+      width: 60px;
+      height: 60px;
+    }
+    .symbol.symbol-md-60 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-md-60 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-md-60.symbol-circle .symbol-badge {
+      top: 0.3px;
+      right: 0.3px;
+    }
+    .symbol.symbol-md-60.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 0.3px;
+    }
+    .symbol.symbol-md-60.symbol-fixed .symbol-label {
+      width: 60px;
+      height: 60px;
+    }
+    .symbol.symbol-md-60.symbol-fixed > img {
+      width: 60px;
+      height: 60px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-60.symbol-2by3 .symbol-label {
+      height: 60px;
+      width: 90px;
+    }
+    .symbol.symbol-md-60.symbol-2by3 > img {
+      height: 60px;
+      width: 90px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-65 > img {
+      width: 100%;
+      max-width: 65px;
+      height: 65px;
+    }
+    .symbol.symbol-md-65 .symbol-label {
+      width: 65px;
+      height: 65px;
+    }
+    .symbol.symbol-md-65 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-md-65 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-md-65.symbol-circle .symbol-badge {
+      top: 1.325px;
+      right: 1.325px;
+    }
+    .symbol.symbol-md-65.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 1.325px;
+    }
+    .symbol.symbol-md-65.symbol-fixed .symbol-label {
+      width: 65px;
+      height: 65px;
+    }
+    .symbol.symbol-md-65.symbol-fixed > img {
+      width: 65px;
+      height: 65px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-65.symbol-2by3 .symbol-label {
+      height: 65px;
+      width: 97.5px;
+    }
+    .symbol.symbol-md-65.symbol-2by3 > img {
+      height: 65px;
+      width: 97.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-70 > img {
+      width: 100%;
+      max-width: 70px;
+      height: 70px;
+    }
+    .symbol.symbol-md-70 .symbol-label {
+      width: 70px;
+      height: 70px;
+    }
+    .symbol.symbol-md-70 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-md-70 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-md-70.symbol-circle .symbol-badge {
+      top: 2.35px;
+      right: 2.35px;
+    }
+    .symbol.symbol-md-70.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 2.35px;
+    }
+    .symbol.symbol-md-70.symbol-fixed .symbol-label {
+      width: 70px;
+      height: 70px;
+    }
+    .symbol.symbol-md-70.symbol-fixed > img {
+      width: 70px;
+      height: 70px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-70.symbol-2by3 .symbol-label {
+      height: 70px;
+      width: 105px;
+    }
+    .symbol.symbol-md-70.symbol-2by3 > img {
+      height: 70px;
+      width: 105px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-75 > img {
+      width: 100%;
+      max-width: 75px;
+      height: 75px;
+    }
+    .symbol.symbol-md-75 .symbol-label {
+      width: 75px;
+      height: 75px;
+    }
+    .symbol.symbol-md-75 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-md-75 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-md-75.symbol-circle .symbol-badge {
+      top: 3.375px;
+      right: 3.375px;
+    }
+    .symbol.symbol-md-75.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 3.375px;
+    }
+    .symbol.symbol-md-75.symbol-fixed .symbol-label {
+      width: 75px;
+      height: 75px;
+    }
+    .symbol.symbol-md-75.symbol-fixed > img {
+      width: 75px;
+      height: 75px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-75.symbol-2by3 .symbol-label {
+      height: 75px;
+      width: 112.5px;
+    }
+    .symbol.symbol-md-75.symbol-2by3 > img {
+      height: 75px;
+      width: 112.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-80 > img {
+      width: 100%;
+      max-width: 80px;
+      height: 80px;
+    }
+    .symbol.symbol-md-80 .symbol-label {
+      width: 80px;
+      height: 80px;
+    }
+    .symbol.symbol-md-80 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-md-80 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-md-80.symbol-circle .symbol-badge {
+      top: 4.4px;
+      right: 4.4px;
+    }
+    .symbol.symbol-md-80.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 4.4px;
+    }
+    .symbol.symbol-md-80.symbol-fixed .symbol-label {
+      width: 80px;
+      height: 80px;
+    }
+    .symbol.symbol-md-80.symbol-fixed > img {
+      width: 80px;
+      height: 80px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-80.symbol-2by3 .symbol-label {
+      height: 80px;
+      width: 120px;
+    }
+    .symbol.symbol-md-80.symbol-2by3 > img {
+      height: 80px;
+      width: 120px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-85 > img {
+      width: 100%;
+      max-width: 85px;
+      height: 85px;
+    }
+    .symbol.symbol-md-85 .symbol-label {
+      width: 85px;
+      height: 85px;
+    }
+    .symbol.symbol-md-85 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-md-85 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-md-85.symbol-circle .symbol-badge {
+      top: 5.425px;
+      right: 5.425px;
+    }
+    .symbol.symbol-md-85.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 5.425px;
+    }
+    .symbol.symbol-md-85.symbol-fixed .symbol-label {
+      width: 85px;
+      height: 85px;
+    }
+    .symbol.symbol-md-85.symbol-fixed > img {
+      width: 85px;
+      height: 85px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-85.symbol-2by3 .symbol-label {
+      height: 85px;
+      width: 127.5px;
+    }
+    .symbol.symbol-md-85.symbol-2by3 > img {
+      height: 85px;
+      width: 127.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-90 > img {
+      width: 100%;
+      max-width: 90px;
+      height: 90px;
+    }
+    .symbol.symbol-md-90 .symbol-label {
+      width: 90px;
+      height: 90px;
+    }
+    .symbol.symbol-md-90 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-md-90 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-md-90.symbol-circle .symbol-badge {
+      top: 6.45px;
+      right: 6.45px;
+    }
+    .symbol.symbol-md-90.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 6.45px;
+    }
+    .symbol.symbol-md-90.symbol-fixed .symbol-label {
+      width: 90px;
+      height: 90px;
+    }
+    .symbol.symbol-md-90.symbol-fixed > img {
+      width: 90px;
+      height: 90px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-90.symbol-2by3 .symbol-label {
+      height: 90px;
+      width: 135px;
+    }
+    .symbol.symbol-md-90.symbol-2by3 > img {
+      height: 90px;
+      width: 135px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-95 > img {
+      width: 100%;
+      max-width: 95px;
+      height: 95px;
+    }
+    .symbol.symbol-md-95 .symbol-label {
+      width: 95px;
+      height: 95px;
+    }
+    .symbol.symbol-md-95 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-md-95 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-md-95.symbol-circle .symbol-badge {
+      top: 7.475px;
+      right: 7.475px;
+    }
+    .symbol.symbol-md-95.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 7.475px;
+    }
+    .symbol.symbol-md-95.symbol-fixed .symbol-label {
+      width: 95px;
+      height: 95px;
+    }
+    .symbol.symbol-md-95.symbol-fixed > img {
+      width: 95px;
+      height: 95px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-95.symbol-2by3 .symbol-label {
+      height: 95px;
+      width: 142.5px;
+    }
+    .symbol.symbol-md-95.symbol-2by3 > img {
+      height: 95px;
+      width: 142.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-100 > img {
+      width: 100%;
+      max-width: 100px;
+      height: 100px;
+    }
+    .symbol.symbol-md-100 .symbol-label {
+      width: 100px;
+      height: 100px;
+    }
+    .symbol.symbol-md-100 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-md-100 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-md-100.symbol-circle .symbol-badge {
+      top: 8.5px;
+      right: 8.5px;
+    }
+    .symbol.symbol-md-100.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 8.5px;
+    }
+    .symbol.symbol-md-100.symbol-fixed .symbol-label {
+      width: 100px;
+      height: 100px;
+    }
+    .symbol.symbol-md-100.symbol-fixed > img {
+      width: 100px;
+      height: 100px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-100.symbol-2by3 .symbol-label {
+      height: 100px;
+      width: 150px;
+    }
+    .symbol.symbol-md-100.symbol-2by3 > img {
+      height: 100px;
+      width: 150px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-120 > img {
+      width: 100%;
+      max-width: 120px;
+      height: 120px;
+    }
+    .symbol.symbol-md-120 .symbol-label {
+      width: 120px;
+      height: 120px;
+    }
+    .symbol.symbol-md-120 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-md-120 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-md-120.symbol-circle .symbol-badge {
+      top: 12.6px;
+      right: 12.6px;
+    }
+    .symbol.symbol-md-120.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 12.6px;
+    }
+    .symbol.symbol-md-120.symbol-fixed .symbol-label {
+      width: 120px;
+      height: 120px;
+    }
+    .symbol.symbol-md-120.symbol-fixed > img {
+      width: 120px;
+      height: 120px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-120.symbol-2by3 .symbol-label {
+      height: 120px;
+      width: 180px;
+    }
+    .symbol.symbol-md-120.symbol-2by3 > img {
+      height: 120px;
+      width: 180px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-130 > img {
+      width: 100%;
+      max-width: 130px;
+      height: 130px;
+    }
+    .symbol.symbol-md-130 .symbol-label {
+      width: 130px;
+      height: 130px;
+    }
+    .symbol.symbol-md-130 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-md-130 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-md-130.symbol-circle .symbol-badge {
+      top: 14.65px;
+      right: 14.65px;
+    }
+    .symbol.symbol-md-130.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 14.65px;
+    }
+    .symbol.symbol-md-130.symbol-fixed .symbol-label {
+      width: 130px;
+      height: 130px;
+    }
+    .symbol.symbol-md-130.symbol-fixed > img {
+      width: 130px;
+      height: 130px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-130.symbol-2by3 .symbol-label {
+      height: 130px;
+      width: 195px;
+    }
+    .symbol.symbol-md-130.symbol-2by3 > img {
+      height: 130px;
+      width: 195px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-140 > img {
+      width: 100%;
+      max-width: 140px;
+      height: 140px;
+    }
+    .symbol.symbol-md-140 .symbol-label {
+      width: 140px;
+      height: 140px;
+    }
+    .symbol.symbol-md-140 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-md-140 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-md-140.symbol-circle .symbol-badge {
+      top: 16.7px;
+      right: 16.7px;
+    }
+    .symbol.symbol-md-140.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 16.7px;
+    }
+    .symbol.symbol-md-140.symbol-fixed .symbol-label {
+      width: 140px;
+      height: 140px;
+    }
+    .symbol.symbol-md-140.symbol-fixed > img {
+      width: 140px;
+      height: 140px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-140.symbol-2by3 .symbol-label {
+      height: 140px;
+      width: 210px;
+    }
+    .symbol.symbol-md-140.symbol-2by3 > img {
+      height: 140px;
+      width: 210px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-150 > img {
+      width: 100%;
+      max-width: 150px;
+      height: 150px;
+    }
+    .symbol.symbol-md-150 .symbol-label {
+      width: 150px;
+      height: 150px;
+    }
+    .symbol.symbol-md-150 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-md-150 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-md-150.symbol-circle .symbol-badge {
+      top: 18.75px;
+      right: 18.75px;
+    }
+    .symbol.symbol-md-150.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 18.75px;
+    }
+    .symbol.symbol-md-150.symbol-fixed .symbol-label {
+      width: 150px;
+      height: 150px;
+    }
+    .symbol.symbol-md-150.symbol-fixed > img {
+      width: 150px;
+      height: 150px;
+      max-width: auto;
+    }
+    .symbol.symbol-md-150.symbol-2by3 .symbol-label {
+      height: 150px;
+      width: 225px;
+    }
+    .symbol.symbol-md-150.symbol-2by3 > img {
+      height: 150px;
+      width: 225px;
+      max-width: auto;
+    }
+  }
+  @media (min-width: 992px) {
+    .symbol.symbol-lg-20 > img {
+      width: 100%;
+      max-width: 20px;
+      height: 20px;
+    }
+    .symbol.symbol-lg-20 .symbol-label {
+      width: 20px;
+      height: 20px;
+    }
+    .symbol.symbol-lg-20 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-lg-20 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-lg-20.symbol-circle .symbol-badge {
+      top: -7.9px;
+      right: -7.9px;
+    }
+    .symbol.symbol-lg-20.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -7.9px;
+    }
+    .symbol.symbol-lg-20.symbol-fixed .symbol-label {
+      width: 20px;
+      height: 20px;
+    }
+    .symbol.symbol-lg-20.symbol-fixed > img {
+      width: 20px;
+      height: 20px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-20.symbol-2by3 .symbol-label {
+      height: 20px;
+      width: 30px;
+    }
+    .symbol.symbol-lg-20.symbol-2by3 > img {
+      height: 20px;
+      width: 30px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-25 > img {
+      width: 100%;
+      max-width: 25px;
+      height: 25px;
+    }
+    .symbol.symbol-lg-25 .symbol-label {
+      width: 25px;
+      height: 25px;
+    }
+    .symbol.symbol-lg-25 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-lg-25 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-lg-25.symbol-circle .symbol-badge {
+      top: -6.875px;
+      right: -6.875px;
+    }
+    .symbol.symbol-lg-25.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6.875px;
+    }
+    .symbol.symbol-lg-25.symbol-fixed .symbol-label {
+      width: 25px;
+      height: 25px;
+    }
+    .symbol.symbol-lg-25.symbol-fixed > img {
+      width: 25px;
+      height: 25px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-25.symbol-2by3 .symbol-label {
+      height: 25px;
+      width: 37.5px;
+    }
+    .symbol.symbol-lg-25.symbol-2by3 > img {
+      height: 25px;
+      width: 37.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-30 > img {
+      width: 100%;
+      max-width: 30px;
+      height: 30px;
+    }
+    .symbol.symbol-lg-30 .symbol-label {
+      width: 30px;
+      height: 30px;
+    }
+    .symbol.symbol-lg-30 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-lg-30 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-lg-30.symbol-circle .symbol-badge {
+      top: -5.85px;
+      right: -5.85px;
+    }
+    .symbol.symbol-lg-30.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -5.85px;
+    }
+    .symbol.symbol-lg-30.symbol-fixed .symbol-label {
+      width: 30px;
+      height: 30px;
+    }
+    .symbol.symbol-lg-30.symbol-fixed > img {
+      width: 30px;
+      height: 30px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-30.symbol-2by3 .symbol-label {
+      height: 30px;
+      width: 45px;
+    }
+    .symbol.symbol-lg-30.symbol-2by3 > img {
+      height: 30px;
+      width: 45px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-35 > img {
+      width: 100%;
+      max-width: 35px;
+      height: 35px;
+    }
+    .symbol.symbol-lg-35 .symbol-label {
+      width: 35px;
+      height: 35px;
+    }
+    .symbol.symbol-lg-35 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-lg-35 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-lg-35.symbol-circle .symbol-badge {
+      top: -4.825px;
+      right: -4.825px;
+    }
+    .symbol.symbol-lg-35.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -4.825px;
+    }
+    .symbol.symbol-lg-35.symbol-fixed .symbol-label {
+      width: 35px;
+      height: 35px;
+    }
+    .symbol.symbol-lg-35.symbol-fixed > img {
+      width: 35px;
+      height: 35px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-35.symbol-2by3 .symbol-label {
+      height: 35px;
+      width: 52.5px;
+    }
+    .symbol.symbol-lg-35.symbol-2by3 > img {
+      height: 35px;
+      width: 52.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-40 > img {
+      width: 100%;
+      max-width: 40px;
+      height: 40px;
+    }
+    .symbol.symbol-lg-40 .symbol-label {
+      width: 40px;
+      height: 40px;
+    }
+    .symbol.symbol-lg-40 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-lg-40 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-lg-40.symbol-circle .symbol-badge {
+      top: -3.8px;
+      right: -3.8px;
+    }
+    .symbol.symbol-lg-40.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -3.8px;
+    }
+    .symbol.symbol-lg-40.symbol-fixed .symbol-label {
+      width: 40px;
+      height: 40px;
+    }
+    .symbol.symbol-lg-40.symbol-fixed > img {
+      width: 40px;
+      height: 40px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-40.symbol-2by3 .symbol-label {
+      height: 40px;
+      width: 60px;
+    }
+    .symbol.symbol-lg-40.symbol-2by3 > img {
+      height: 40px;
+      width: 60px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-45 > img {
+      width: 100%;
+      max-width: 45px;
+      height: 45px;
+    }
+    .symbol.symbol-lg-45 .symbol-label {
+      width: 45px;
+      height: 45px;
+    }
+    .symbol.symbol-lg-45 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-lg-45 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-lg-45.symbol-circle .symbol-badge {
+      top: -2.775px;
+      right: -2.775px;
+    }
+    .symbol.symbol-lg-45.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -2.775px;
+    }
+    .symbol.symbol-lg-45.symbol-fixed .symbol-label {
+      width: 45px;
+      height: 45px;
+    }
+    .symbol.symbol-lg-45.symbol-fixed > img {
+      width: 45px;
+      height: 45px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-45.symbol-2by3 .symbol-label {
+      height: 45px;
+      width: 67.5px;
+    }
+    .symbol.symbol-lg-45.symbol-2by3 > img {
+      height: 45px;
+      width: 67.5px;
+      max-width: auto;
+    }
+    .symbol > img {
+      width: 100%;
+      max-width: 50px;
+      height: 50px;
+    }
+    .symbol .symbol-label {
+      width: 50px;
+      height: 50px;
+    }
+    .symbol .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-circle .symbol-badge {
+      top: -1.75px;
+      right: -1.75px;
+    }
+    .symbol.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -1.75px;
+    }
+    .symbol.symbol-fixed .symbol-label {
+      width: 50px;
+      height: 50px;
+    }
+    .symbol.symbol-fixed > img {
+      width: 50px;
+      height: 50px;
+      max-width: auto;
+    }
+    .symbol.symbol-2by3 .symbol-label {
+      height: 50px;
+      width: 75px;
+    }
+    .symbol.symbol-2by3 > img {
+      height: 50px;
+      width: 75px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-50 > img {
+      width: 100%;
+      max-width: 50px;
+      height: 50px;
+    }
+    .symbol.symbol-lg-50 .symbol-label {
+      width: 50px;
+      height: 50px;
+    }
+    .symbol.symbol-lg-50 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-lg-50 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-lg-50.symbol-circle .symbol-badge {
+      top: -1.75px;
+      right: -1.75px;
+    }
+    .symbol.symbol-lg-50.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -1.75px;
+    }
+    .symbol.symbol-lg-50.symbol-fixed .symbol-label {
+      width: 50px;
+      height: 50px;
+    }
+    .symbol.symbol-lg-50.symbol-fixed > img {
+      width: 50px;
+      height: 50px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-50.symbol-2by3 .symbol-label {
+      height: 50px;
+      width: 75px;
+    }
+    .symbol.symbol-lg-50.symbol-2by3 > img {
+      height: 50px;
+      width: 75px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-55 > img {
+      width: 100%;
+      max-width: 55px;
+      height: 55px;
+    }
+    .symbol.symbol-lg-55 .symbol-label {
+      width: 55px;
+      height: 55px;
+    }
+    .symbol.symbol-lg-55 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-lg-55 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-lg-55.symbol-circle .symbol-badge {
+      top: -0.725px;
+      right: -0.725px;
+    }
+    .symbol.symbol-lg-55.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -0.725px;
+    }
+    .symbol.symbol-lg-55.symbol-fixed .symbol-label {
+      width: 55px;
+      height: 55px;
+    }
+    .symbol.symbol-lg-55.symbol-fixed > img {
+      width: 55px;
+      height: 55px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-55.symbol-2by3 .symbol-label {
+      height: 55px;
+      width: 82.5px;
+    }
+    .symbol.symbol-lg-55.symbol-2by3 > img {
+      height: 55px;
+      width: 82.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-60 > img {
+      width: 100%;
+      max-width: 60px;
+      height: 60px;
+    }
+    .symbol.symbol-lg-60 .symbol-label {
+      width: 60px;
+      height: 60px;
+    }
+    .symbol.symbol-lg-60 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-lg-60 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-lg-60.symbol-circle .symbol-badge {
+      top: 0.3px;
+      right: 0.3px;
+    }
+    .symbol.symbol-lg-60.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 0.3px;
+    }
+    .symbol.symbol-lg-60.symbol-fixed .symbol-label {
+      width: 60px;
+      height: 60px;
+    }
+    .symbol.symbol-lg-60.symbol-fixed > img {
+      width: 60px;
+      height: 60px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-60.symbol-2by3 .symbol-label {
+      height: 60px;
+      width: 90px;
+    }
+    .symbol.symbol-lg-60.symbol-2by3 > img {
+      height: 60px;
+      width: 90px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-65 > img {
+      width: 100%;
+      max-width: 65px;
+      height: 65px;
+    }
+    .symbol.symbol-lg-65 .symbol-label {
+      width: 65px;
+      height: 65px;
+    }
+    .symbol.symbol-lg-65 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-lg-65 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-lg-65.symbol-circle .symbol-badge {
+      top: 1.325px;
+      right: 1.325px;
+    }
+    .symbol.symbol-lg-65.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 1.325px;
+    }
+    .symbol.symbol-lg-65.symbol-fixed .symbol-label {
+      width: 65px;
+      height: 65px;
+    }
+    .symbol.symbol-lg-65.symbol-fixed > img {
+      width: 65px;
+      height: 65px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-65.symbol-2by3 .symbol-label {
+      height: 65px;
+      width: 97.5px;
+    }
+    .symbol.symbol-lg-65.symbol-2by3 > img {
+      height: 65px;
+      width: 97.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-70 > img {
+      width: 100%;
+      max-width: 70px;
+      height: 70px;
+    }
+    .symbol.symbol-lg-70 .symbol-label {
+      width: 70px;
+      height: 70px;
+    }
+    .symbol.symbol-lg-70 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-lg-70 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-lg-70.symbol-circle .symbol-badge {
+      top: 2.35px;
+      right: 2.35px;
+    }
+    .symbol.symbol-lg-70.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 2.35px;
+    }
+    .symbol.symbol-lg-70.symbol-fixed .symbol-label {
+      width: 70px;
+      height: 70px;
+    }
+    .symbol.symbol-lg-70.symbol-fixed > img {
+      width: 70px;
+      height: 70px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-70.symbol-2by3 .symbol-label {
+      height: 70px;
+      width: 105px;
+    }
+    .symbol.symbol-lg-70.symbol-2by3 > img {
+      height: 70px;
+      width: 105px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-75 > img {
+      width: 100%;
+      max-width: 75px;
+      height: 75px;
+    }
+    .symbol.symbol-lg-75 .symbol-label {
+      width: 75px;
+      height: 75px;
+    }
+    .symbol.symbol-lg-75 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-lg-75 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-lg-75.symbol-circle .symbol-badge {
+      top: 3.375px;
+      right: 3.375px;
+    }
+    .symbol.symbol-lg-75.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 3.375px;
+    }
+    .symbol.symbol-lg-75.symbol-fixed .symbol-label {
+      width: 75px;
+      height: 75px;
+    }
+    .symbol.symbol-lg-75.symbol-fixed > img {
+      width: 75px;
+      height: 75px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-75.symbol-2by3 .symbol-label {
+      height: 75px;
+      width: 112.5px;
+    }
+    .symbol.symbol-lg-75.symbol-2by3 > img {
+      height: 75px;
+      width: 112.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-80 > img {
+      width: 100%;
+      max-width: 80px;
+      height: 80px;
+    }
+    .symbol.symbol-lg-80 .symbol-label {
+      width: 80px;
+      height: 80px;
+    }
+    .symbol.symbol-lg-80 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-lg-80 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-lg-80.symbol-circle .symbol-badge {
+      top: 4.4px;
+      right: 4.4px;
+    }
+    .symbol.symbol-lg-80.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 4.4px;
+    }
+    .symbol.symbol-lg-80.symbol-fixed .symbol-label {
+      width: 80px;
+      height: 80px;
+    }
+    .symbol.symbol-lg-80.symbol-fixed > img {
+      width: 80px;
+      height: 80px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-80.symbol-2by3 .symbol-label {
+      height: 80px;
+      width: 120px;
+    }
+    .symbol.symbol-lg-80.symbol-2by3 > img {
+      height: 80px;
+      width: 120px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-85 > img {
+      width: 100%;
+      max-width: 85px;
+      height: 85px;
+    }
+    .symbol.symbol-lg-85 .symbol-label {
+      width: 85px;
+      height: 85px;
+    }
+    .symbol.symbol-lg-85 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-lg-85 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-lg-85.symbol-circle .symbol-badge {
+      top: 5.425px;
+      right: 5.425px;
+    }
+    .symbol.symbol-lg-85.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 5.425px;
+    }
+    .symbol.symbol-lg-85.symbol-fixed .symbol-label {
+      width: 85px;
+      height: 85px;
+    }
+    .symbol.symbol-lg-85.symbol-fixed > img {
+      width: 85px;
+      height: 85px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-85.symbol-2by3 .symbol-label {
+      height: 85px;
+      width: 127.5px;
+    }
+    .symbol.symbol-lg-85.symbol-2by3 > img {
+      height: 85px;
+      width: 127.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-90 > img {
+      width: 100%;
+      max-width: 90px;
+      height: 90px;
+    }
+    .symbol.symbol-lg-90 .symbol-label {
+      width: 90px;
+      height: 90px;
+    }
+    .symbol.symbol-lg-90 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-lg-90 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-lg-90.symbol-circle .symbol-badge {
+      top: 6.45px;
+      right: 6.45px;
+    }
+    .symbol.symbol-lg-90.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 6.45px;
+    }
+    .symbol.symbol-lg-90.symbol-fixed .symbol-label {
+      width: 90px;
+      height: 90px;
+    }
+    .symbol.symbol-lg-90.symbol-fixed > img {
+      width: 90px;
+      height: 90px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-90.symbol-2by3 .symbol-label {
+      height: 90px;
+      width: 135px;
+    }
+    .symbol.symbol-lg-90.symbol-2by3 > img {
+      height: 90px;
+      width: 135px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-95 > img {
+      width: 100%;
+      max-width: 95px;
+      height: 95px;
+    }
+    .symbol.symbol-lg-95 .symbol-label {
+      width: 95px;
+      height: 95px;
+    }
+    .symbol.symbol-lg-95 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-lg-95 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-lg-95.symbol-circle .symbol-badge {
+      top: 7.475px;
+      right: 7.475px;
+    }
+    .symbol.symbol-lg-95.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 7.475px;
+    }
+    .symbol.symbol-lg-95.symbol-fixed .symbol-label {
+      width: 95px;
+      height: 95px;
+    }
+    .symbol.symbol-lg-95.symbol-fixed > img {
+      width: 95px;
+      height: 95px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-95.symbol-2by3 .symbol-label {
+      height: 95px;
+      width: 142.5px;
+    }
+    .symbol.symbol-lg-95.symbol-2by3 > img {
+      height: 95px;
+      width: 142.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-100 > img {
+      width: 100%;
+      max-width: 100px;
+      height: 100px;
+    }
+    .symbol.symbol-lg-100 .symbol-label {
+      width: 100px;
+      height: 100px;
+    }
+    .symbol.symbol-lg-100 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-lg-100 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-lg-100.symbol-circle .symbol-badge {
+      top: 8.5px;
+      right: 8.5px;
+    }
+    .symbol.symbol-lg-100.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 8.5px;
+    }
+    .symbol.symbol-lg-100.symbol-fixed .symbol-label {
+      width: 100px;
+      height: 100px;
+    }
+    .symbol.symbol-lg-100.symbol-fixed > img {
+      width: 100px;
+      height: 100px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-100.symbol-2by3 .symbol-label {
+      height: 100px;
+      width: 150px;
+    }
+    .symbol.symbol-lg-100.symbol-2by3 > img {
+      height: 100px;
+      width: 150px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-120 > img {
+      width: 100%;
+      max-width: 120px;
+      height: 120px;
+    }
+    .symbol.symbol-lg-120 .symbol-label {
+      width: 120px;
+      height: 120px;
+    }
+    .symbol.symbol-lg-120 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-lg-120 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-lg-120.symbol-circle .symbol-badge {
+      top: 12.6px;
+      right: 12.6px;
+    }
+    .symbol.symbol-lg-120.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 12.6px;
+    }
+    .symbol.symbol-lg-120.symbol-fixed .symbol-label {
+      width: 120px;
+      height: 120px;
+    }
+    .symbol.symbol-lg-120.symbol-fixed > img {
+      width: 120px;
+      height: 120px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-120.symbol-2by3 .symbol-label {
+      height: 120px;
+      width: 180px;
+    }
+    .symbol.symbol-lg-120.symbol-2by3 > img {
+      height: 120px;
+      width: 180px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-130 > img {
+      width: 100%;
+      max-width: 130px;
+      height: 130px;
+    }
+    .symbol.symbol-lg-130 .symbol-label {
+      width: 130px;
+      height: 130px;
+    }
+    .symbol.symbol-lg-130 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-lg-130 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-lg-130.symbol-circle .symbol-badge {
+      top: 14.65px;
+      right: 14.65px;
+    }
+    .symbol.symbol-lg-130.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 14.65px;
+    }
+    .symbol.symbol-lg-130.symbol-fixed .symbol-label {
+      width: 130px;
+      height: 130px;
+    }
+    .symbol.symbol-lg-130.symbol-fixed > img {
+      width: 130px;
+      height: 130px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-130.symbol-2by3 .symbol-label {
+      height: 130px;
+      width: 195px;
+    }
+    .symbol.symbol-lg-130.symbol-2by3 > img {
+      height: 130px;
+      width: 195px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-140 > img {
+      width: 100%;
+      max-width: 140px;
+      height: 140px;
+    }
+    .symbol.symbol-lg-140 .symbol-label {
+      width: 140px;
+      height: 140px;
+    }
+    .symbol.symbol-lg-140 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-lg-140 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-lg-140.symbol-circle .symbol-badge {
+      top: 16.7px;
+      right: 16.7px;
+    }
+    .symbol.symbol-lg-140.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 16.7px;
+    }
+    .symbol.symbol-lg-140.symbol-fixed .symbol-label {
+      width: 140px;
+      height: 140px;
+    }
+    .symbol.symbol-lg-140.symbol-fixed > img {
+      width: 140px;
+      height: 140px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-140.symbol-2by3 .symbol-label {
+      height: 140px;
+      width: 210px;
+    }
+    .symbol.symbol-lg-140.symbol-2by3 > img {
+      height: 140px;
+      width: 210px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-150 > img {
+      width: 100%;
+      max-width: 150px;
+      height: 150px;
+    }
+    .symbol.symbol-lg-150 .symbol-label {
+      width: 150px;
+      height: 150px;
+    }
+    .symbol.symbol-lg-150 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-lg-150 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-lg-150.symbol-circle .symbol-badge {
+      top: 18.75px;
+      right: 18.75px;
+    }
+    .symbol.symbol-lg-150.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 18.75px;
+    }
+    .symbol.symbol-lg-150.symbol-fixed .symbol-label {
+      width: 150px;
+      height: 150px;
+    }
+    .symbol.symbol-lg-150.symbol-fixed > img {
+      width: 150px;
+      height: 150px;
+      max-width: auto;
+    }
+    .symbol.symbol-lg-150.symbol-2by3 .symbol-label {
+      height: 150px;
+      width: 225px;
+    }
+    .symbol.symbol-lg-150.symbol-2by3 > img {
+      height: 150px;
+      width: 225px;
+      max-width: auto;
+    }
+  }
+  @media (min-width: 1200px) {
+    .symbol.symbol-xl-20 > img {
+      width: 100%;
+      max-width: 20px;
+      height: 20px;
+    }
+    .symbol.symbol-xl-20 .symbol-label {
+      width: 20px;
+      height: 20px;
+    }
+    .symbol.symbol-xl-20 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xl-20 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xl-20.symbol-circle .symbol-badge {
+      top: -7.9px;
+      right: -7.9px;
+    }
+    .symbol.symbol-xl-20.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -7.9px;
+    }
+    .symbol.symbol-xl-20.symbol-fixed .symbol-label {
+      width: 20px;
+      height: 20px;
+    }
+    .symbol.symbol-xl-20.symbol-fixed > img {
+      width: 20px;
+      height: 20px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-20.symbol-2by3 .symbol-label {
+      height: 20px;
+      width: 30px;
+    }
+    .symbol.symbol-xl-20.symbol-2by3 > img {
+      height: 20px;
+      width: 30px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-25 > img {
+      width: 100%;
+      max-width: 25px;
+      height: 25px;
+    }
+    .symbol.symbol-xl-25 .symbol-label {
+      width: 25px;
+      height: 25px;
+    }
+    .symbol.symbol-xl-25 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xl-25 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xl-25.symbol-circle .symbol-badge {
+      top: -6.875px;
+      right: -6.875px;
+    }
+    .symbol.symbol-xl-25.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6.875px;
+    }
+    .symbol.symbol-xl-25.symbol-fixed .symbol-label {
+      width: 25px;
+      height: 25px;
+    }
+    .symbol.symbol-xl-25.symbol-fixed > img {
+      width: 25px;
+      height: 25px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-25.symbol-2by3 .symbol-label {
+      height: 25px;
+      width: 37.5px;
+    }
+    .symbol.symbol-xl-25.symbol-2by3 > img {
+      height: 25px;
+      width: 37.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-30 > img {
+      width: 100%;
+      max-width: 30px;
+      height: 30px;
+    }
+    .symbol.symbol-xl-30 .symbol-label {
+      width: 30px;
+      height: 30px;
+    }
+    .symbol.symbol-xl-30 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xl-30 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xl-30.symbol-circle .symbol-badge {
+      top: -5.85px;
+      right: -5.85px;
+    }
+    .symbol.symbol-xl-30.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -5.85px;
+    }
+    .symbol.symbol-xl-30.symbol-fixed .symbol-label {
+      width: 30px;
+      height: 30px;
+    }
+    .symbol.symbol-xl-30.symbol-fixed > img {
+      width: 30px;
+      height: 30px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-30.symbol-2by3 .symbol-label {
+      height: 30px;
+      width: 45px;
+    }
+    .symbol.symbol-xl-30.symbol-2by3 > img {
+      height: 30px;
+      width: 45px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-35 > img {
+      width: 100%;
+      max-width: 35px;
+      height: 35px;
+    }
+    .symbol.symbol-xl-35 .symbol-label {
+      width: 35px;
+      height: 35px;
+    }
+    .symbol.symbol-xl-35 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xl-35 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xl-35.symbol-circle .symbol-badge {
+      top: -4.825px;
+      right: -4.825px;
+    }
+    .symbol.symbol-xl-35.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -4.825px;
+    }
+    .symbol.symbol-xl-35.symbol-fixed .symbol-label {
+      width: 35px;
+      height: 35px;
+    }
+    .symbol.symbol-xl-35.symbol-fixed > img {
+      width: 35px;
+      height: 35px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-35.symbol-2by3 .symbol-label {
+      height: 35px;
+      width: 52.5px;
+    }
+    .symbol.symbol-xl-35.symbol-2by3 > img {
+      height: 35px;
+      width: 52.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-40 > img {
+      width: 100%;
+      max-width: 40px;
+      height: 40px;
+    }
+    .symbol.symbol-xl-40 .symbol-label {
+      width: 40px;
+      height: 40px;
+    }
+    .symbol.symbol-xl-40 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xl-40 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xl-40.symbol-circle .symbol-badge {
+      top: -3.8px;
+      right: -3.8px;
+    }
+    .symbol.symbol-xl-40.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -3.8px;
+    }
+    .symbol.symbol-xl-40.symbol-fixed .symbol-label {
+      width: 40px;
+      height: 40px;
+    }
+    .symbol.symbol-xl-40.symbol-fixed > img {
+      width: 40px;
+      height: 40px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-40.symbol-2by3 .symbol-label {
+      height: 40px;
+      width: 60px;
+    }
+    .symbol.symbol-xl-40.symbol-2by3 > img {
+      height: 40px;
+      width: 60px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-45 > img {
+      width: 100%;
+      max-width: 45px;
+      height: 45px;
+    }
+    .symbol.symbol-xl-45 .symbol-label {
+      width: 45px;
+      height: 45px;
+    }
+    .symbol.symbol-xl-45 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xl-45 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xl-45.symbol-circle .symbol-badge {
+      top: -2.775px;
+      right: -2.775px;
+    }
+    .symbol.symbol-xl-45.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -2.775px;
+    }
+    .symbol.symbol-xl-45.symbol-fixed .symbol-label {
+      width: 45px;
+      height: 45px;
+    }
+    .symbol.symbol-xl-45.symbol-fixed > img {
+      width: 45px;
+      height: 45px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-45.symbol-2by3 .symbol-label {
+      height: 45px;
+      width: 67.5px;
+    }
+    .symbol.symbol-xl-45.symbol-2by3 > img {
+      height: 45px;
+      width: 67.5px;
+      max-width: auto;
+    }
+    .symbol > img {
+      width: 100%;
+      max-width: 50px;
+      height: 50px;
+    }
+    .symbol .symbol-label {
+      width: 50px;
+      height: 50px;
+    }
+    .symbol .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-circle .symbol-badge {
+      top: -1.75px;
+      right: -1.75px;
+    }
+    .symbol.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -1.75px;
+    }
+    .symbol.symbol-fixed .symbol-label {
+      width: 50px;
+      height: 50px;
+    }
+    .symbol.symbol-fixed > img {
+      width: 50px;
+      height: 50px;
+      max-width: auto;
+    }
+    .symbol.symbol-2by3 .symbol-label {
+      height: 50px;
+      width: 75px;
+    }
+    .symbol.symbol-2by3 > img {
+      height: 50px;
+      width: 75px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-50 > img {
+      width: 100%;
+      max-width: 50px;
+      height: 50px;
+    }
+    .symbol.symbol-xl-50 .symbol-label {
+      width: 50px;
+      height: 50px;
+    }
+    .symbol.symbol-xl-50 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xl-50 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xl-50.symbol-circle .symbol-badge {
+      top: -1.75px;
+      right: -1.75px;
+    }
+    .symbol.symbol-xl-50.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -1.75px;
+    }
+    .symbol.symbol-xl-50.symbol-fixed .symbol-label {
+      width: 50px;
+      height: 50px;
+    }
+    .symbol.symbol-xl-50.symbol-fixed > img {
+      width: 50px;
+      height: 50px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-50.symbol-2by3 .symbol-label {
+      height: 50px;
+      width: 75px;
+    }
+    .symbol.symbol-xl-50.symbol-2by3 > img {
+      height: 50px;
+      width: 75px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-55 > img {
+      width: 100%;
+      max-width: 55px;
+      height: 55px;
+    }
+    .symbol.symbol-xl-55 .symbol-label {
+      width: 55px;
+      height: 55px;
+    }
+    .symbol.symbol-xl-55 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xl-55 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xl-55.symbol-circle .symbol-badge {
+      top: -0.725px;
+      right: -0.725px;
+    }
+    .symbol.symbol-xl-55.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -0.725px;
+    }
+    .symbol.symbol-xl-55.symbol-fixed .symbol-label {
+      width: 55px;
+      height: 55px;
+    }
+    .symbol.symbol-xl-55.symbol-fixed > img {
+      width: 55px;
+      height: 55px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-55.symbol-2by3 .symbol-label {
+      height: 55px;
+      width: 82.5px;
+    }
+    .symbol.symbol-xl-55.symbol-2by3 > img {
+      height: 55px;
+      width: 82.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-60 > img {
+      width: 100%;
+      max-width: 60px;
+      height: 60px;
+    }
+    .symbol.symbol-xl-60 .symbol-label {
+      width: 60px;
+      height: 60px;
+    }
+    .symbol.symbol-xl-60 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xl-60 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xl-60.symbol-circle .symbol-badge {
+      top: 0.3px;
+      right: 0.3px;
+    }
+    .symbol.symbol-xl-60.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 0.3px;
+    }
+    .symbol.symbol-xl-60.symbol-fixed .symbol-label {
+      width: 60px;
+      height: 60px;
+    }
+    .symbol.symbol-xl-60.symbol-fixed > img {
+      width: 60px;
+      height: 60px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-60.symbol-2by3 .symbol-label {
+      height: 60px;
+      width: 90px;
+    }
+    .symbol.symbol-xl-60.symbol-2by3 > img {
+      height: 60px;
+      width: 90px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-65 > img {
+      width: 100%;
+      max-width: 65px;
+      height: 65px;
+    }
+    .symbol.symbol-xl-65 .symbol-label {
+      width: 65px;
+      height: 65px;
+    }
+    .symbol.symbol-xl-65 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xl-65 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xl-65.symbol-circle .symbol-badge {
+      top: 1.325px;
+      right: 1.325px;
+    }
+    .symbol.symbol-xl-65.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 1.325px;
+    }
+    .symbol.symbol-xl-65.symbol-fixed .symbol-label {
+      width: 65px;
+      height: 65px;
+    }
+    .symbol.symbol-xl-65.symbol-fixed > img {
+      width: 65px;
+      height: 65px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-65.symbol-2by3 .symbol-label {
+      height: 65px;
+      width: 97.5px;
+    }
+    .symbol.symbol-xl-65.symbol-2by3 > img {
+      height: 65px;
+      width: 97.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-70 > img {
+      width: 100%;
+      max-width: 70px;
+      height: 70px;
+    }
+    .symbol.symbol-xl-70 .symbol-label {
+      width: 70px;
+      height: 70px;
+    }
+    .symbol.symbol-xl-70 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xl-70 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xl-70.symbol-circle .symbol-badge {
+      top: 2.35px;
+      right: 2.35px;
+    }
+    .symbol.symbol-xl-70.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 2.35px;
+    }
+    .symbol.symbol-xl-70.symbol-fixed .symbol-label {
+      width: 70px;
+      height: 70px;
+    }
+    .symbol.symbol-xl-70.symbol-fixed > img {
+      width: 70px;
+      height: 70px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-70.symbol-2by3 .symbol-label {
+      height: 70px;
+      width: 105px;
+    }
+    .symbol.symbol-xl-70.symbol-2by3 > img {
+      height: 70px;
+      width: 105px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-75 > img {
+      width: 100%;
+      max-width: 75px;
+      height: 75px;
+    }
+    .symbol.symbol-xl-75 .symbol-label {
+      width: 75px;
+      height: 75px;
+    }
+    .symbol.symbol-xl-75 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xl-75 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xl-75.symbol-circle .symbol-badge {
+      top: 3.375px;
+      right: 3.375px;
+    }
+    .symbol.symbol-xl-75.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 3.375px;
+    }
+    .symbol.symbol-xl-75.symbol-fixed .symbol-label {
+      width: 75px;
+      height: 75px;
+    }
+    .symbol.symbol-xl-75.symbol-fixed > img {
+      width: 75px;
+      height: 75px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-75.symbol-2by3 .symbol-label {
+      height: 75px;
+      width: 112.5px;
+    }
+    .symbol.symbol-xl-75.symbol-2by3 > img {
+      height: 75px;
+      width: 112.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-80 > img {
+      width: 100%;
+      max-width: 80px;
+      height: 80px;
+    }
+    .symbol.symbol-xl-80 .symbol-label {
+      width: 80px;
+      height: 80px;
+    }
+    .symbol.symbol-xl-80 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xl-80 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xl-80.symbol-circle .symbol-badge {
+      top: 4.4px;
+      right: 4.4px;
+    }
+    .symbol.symbol-xl-80.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 4.4px;
+    }
+    .symbol.symbol-xl-80.symbol-fixed .symbol-label {
+      width: 80px;
+      height: 80px;
+    }
+    .symbol.symbol-xl-80.symbol-fixed > img {
+      width: 80px;
+      height: 80px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-80.symbol-2by3 .symbol-label {
+      height: 80px;
+      width: 120px;
+    }
+    .symbol.symbol-xl-80.symbol-2by3 > img {
+      height: 80px;
+      width: 120px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-85 > img {
+      width: 100%;
+      max-width: 85px;
+      height: 85px;
+    }
+    .symbol.symbol-xl-85 .symbol-label {
+      width: 85px;
+      height: 85px;
+    }
+    .symbol.symbol-xl-85 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xl-85 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xl-85.symbol-circle .symbol-badge {
+      top: 5.425px;
+      right: 5.425px;
+    }
+    .symbol.symbol-xl-85.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 5.425px;
+    }
+    .symbol.symbol-xl-85.symbol-fixed .symbol-label {
+      width: 85px;
+      height: 85px;
+    }
+    .symbol.symbol-xl-85.symbol-fixed > img {
+      width: 85px;
+      height: 85px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-85.symbol-2by3 .symbol-label {
+      height: 85px;
+      width: 127.5px;
+    }
+    .symbol.symbol-xl-85.symbol-2by3 > img {
+      height: 85px;
+      width: 127.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-90 > img {
+      width: 100%;
+      max-width: 90px;
+      height: 90px;
+    }
+    .symbol.symbol-xl-90 .symbol-label {
+      width: 90px;
+      height: 90px;
+    }
+    .symbol.symbol-xl-90 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xl-90 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xl-90.symbol-circle .symbol-badge {
+      top: 6.45px;
+      right: 6.45px;
+    }
+    .symbol.symbol-xl-90.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 6.45px;
+    }
+    .symbol.symbol-xl-90.symbol-fixed .symbol-label {
+      width: 90px;
+      height: 90px;
+    }
+    .symbol.symbol-xl-90.symbol-fixed > img {
+      width: 90px;
+      height: 90px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-90.symbol-2by3 .symbol-label {
+      height: 90px;
+      width: 135px;
+    }
+    .symbol.symbol-xl-90.symbol-2by3 > img {
+      height: 90px;
+      width: 135px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-95 > img {
+      width: 100%;
+      max-width: 95px;
+      height: 95px;
+    }
+    .symbol.symbol-xl-95 .symbol-label {
+      width: 95px;
+      height: 95px;
+    }
+    .symbol.symbol-xl-95 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xl-95 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xl-95.symbol-circle .symbol-badge {
+      top: 7.475px;
+      right: 7.475px;
+    }
+    .symbol.symbol-xl-95.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 7.475px;
+    }
+    .symbol.symbol-xl-95.symbol-fixed .symbol-label {
+      width: 95px;
+      height: 95px;
+    }
+    .symbol.symbol-xl-95.symbol-fixed > img {
+      width: 95px;
+      height: 95px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-95.symbol-2by3 .symbol-label {
+      height: 95px;
+      width: 142.5px;
+    }
+    .symbol.symbol-xl-95.symbol-2by3 > img {
+      height: 95px;
+      width: 142.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-100 > img {
+      width: 100%;
+      max-width: 100px;
+      height: 100px;
+    }
+    .symbol.symbol-xl-100 .symbol-label {
+      width: 100px;
+      height: 100px;
+    }
+    .symbol.symbol-xl-100 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xl-100 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xl-100.symbol-circle .symbol-badge {
+      top: 8.5px;
+      right: 8.5px;
+    }
+    .symbol.symbol-xl-100.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 8.5px;
+    }
+    .symbol.symbol-xl-100.symbol-fixed .symbol-label {
+      width: 100px;
+      height: 100px;
+    }
+    .symbol.symbol-xl-100.symbol-fixed > img {
+      width: 100px;
+      height: 100px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-100.symbol-2by3 .symbol-label {
+      height: 100px;
+      width: 150px;
+    }
+    .symbol.symbol-xl-100.symbol-2by3 > img {
+      height: 100px;
+      width: 150px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-120 > img {
+      width: 100%;
+      max-width: 120px;
+      height: 120px;
+    }
+    .symbol.symbol-xl-120 .symbol-label {
+      width: 120px;
+      height: 120px;
+    }
+    .symbol.symbol-xl-120 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xl-120 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xl-120.symbol-circle .symbol-badge {
+      top: 12.6px;
+      right: 12.6px;
+    }
+    .symbol.symbol-xl-120.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 12.6px;
+    }
+    .symbol.symbol-xl-120.symbol-fixed .symbol-label {
+      width: 120px;
+      height: 120px;
+    }
+    .symbol.symbol-xl-120.symbol-fixed > img {
+      width: 120px;
+      height: 120px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-120.symbol-2by3 .symbol-label {
+      height: 120px;
+      width: 180px;
+    }
+    .symbol.symbol-xl-120.symbol-2by3 > img {
+      height: 120px;
+      width: 180px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-130 > img {
+      width: 100%;
+      max-width: 130px;
+      height: 130px;
+    }
+    .symbol.symbol-xl-130 .symbol-label {
+      width: 130px;
+      height: 130px;
+    }
+    .symbol.symbol-xl-130 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xl-130 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xl-130.symbol-circle .symbol-badge {
+      top: 14.65px;
+      right: 14.65px;
+    }
+    .symbol.symbol-xl-130.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 14.65px;
+    }
+    .symbol.symbol-xl-130.symbol-fixed .symbol-label {
+      width: 130px;
+      height: 130px;
+    }
+    .symbol.symbol-xl-130.symbol-fixed > img {
+      width: 130px;
+      height: 130px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-130.symbol-2by3 .symbol-label {
+      height: 130px;
+      width: 195px;
+    }
+    .symbol.symbol-xl-130.symbol-2by3 > img {
+      height: 130px;
+      width: 195px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-140 > img {
+      width: 100%;
+      max-width: 140px;
+      height: 140px;
+    }
+    .symbol.symbol-xl-140 .symbol-label {
+      width: 140px;
+      height: 140px;
+    }
+    .symbol.symbol-xl-140 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xl-140 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xl-140.symbol-circle .symbol-badge {
+      top: 16.7px;
+      right: 16.7px;
+    }
+    .symbol.symbol-xl-140.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 16.7px;
+    }
+    .symbol.symbol-xl-140.symbol-fixed .symbol-label {
+      width: 140px;
+      height: 140px;
+    }
+    .symbol.symbol-xl-140.symbol-fixed > img {
+      width: 140px;
+      height: 140px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-140.symbol-2by3 .symbol-label {
+      height: 140px;
+      width: 210px;
+    }
+    .symbol.symbol-xl-140.symbol-2by3 > img {
+      height: 140px;
+      width: 210px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-150 > img {
+      width: 100%;
+      max-width: 150px;
+      height: 150px;
+    }
+    .symbol.symbol-xl-150 .symbol-label {
+      width: 150px;
+      height: 150px;
+    }
+    .symbol.symbol-xl-150 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xl-150 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xl-150.symbol-circle .symbol-badge {
+      top: 18.75px;
+      right: 18.75px;
+    }
+    .symbol.symbol-xl-150.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 18.75px;
+    }
+    .symbol.symbol-xl-150.symbol-fixed .symbol-label {
+      width: 150px;
+      height: 150px;
+    }
+    .symbol.symbol-xl-150.symbol-fixed > img {
+      width: 150px;
+      height: 150px;
+      max-width: auto;
+    }
+    .symbol.symbol-xl-150.symbol-2by3 .symbol-label {
+      height: 150px;
+      width: 225px;
+    }
+    .symbol.symbol-xl-150.symbol-2by3 > img {
+      height: 150px;
+      width: 225px;
+      max-width: auto;
+    }
+  }
+  @media (min-width: 1400px) {
+    .symbol.symbol-xxl-20 > img {
+      width: 100%;
+      max-width: 20px;
+      height: 20px;
+    }
+    .symbol.symbol-xxl-20 .symbol-label {
+      width: 20px;
+      height: 20px;
+    }
+    .symbol.symbol-xxl-20 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xxl-20 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xxl-20.symbol-circle .symbol-badge {
+      top: -7.9px;
+      right: -7.9px;
+    }
+    .symbol.symbol-xxl-20.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -7.9px;
+    }
+    .symbol.symbol-xxl-20.symbol-fixed .symbol-label {
+      width: 20px;
+      height: 20px;
+    }
+    .symbol.symbol-xxl-20.symbol-fixed > img {
+      width: 20px;
+      height: 20px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-20.symbol-2by3 .symbol-label {
+      height: 20px;
+      width: 30px;
+    }
+    .symbol.symbol-xxl-20.symbol-2by3 > img {
+      height: 20px;
+      width: 30px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-25 > img {
+      width: 100%;
+      max-width: 25px;
+      height: 25px;
+    }
+    .symbol.symbol-xxl-25 .symbol-label {
+      width: 25px;
+      height: 25px;
+    }
+    .symbol.symbol-xxl-25 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xxl-25 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xxl-25.symbol-circle .symbol-badge {
+      top: -6.875px;
+      right: -6.875px;
+    }
+    .symbol.symbol-xxl-25.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6.875px;
+    }
+    .symbol.symbol-xxl-25.symbol-fixed .symbol-label {
+      width: 25px;
+      height: 25px;
+    }
+    .symbol.symbol-xxl-25.symbol-fixed > img {
+      width: 25px;
+      height: 25px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-25.symbol-2by3 .symbol-label {
+      height: 25px;
+      width: 37.5px;
+    }
+    .symbol.symbol-xxl-25.symbol-2by3 > img {
+      height: 25px;
+      width: 37.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-30 > img {
+      width: 100%;
+      max-width: 30px;
+      height: 30px;
+    }
+    .symbol.symbol-xxl-30 .symbol-label {
+      width: 30px;
+      height: 30px;
+    }
+    .symbol.symbol-xxl-30 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xxl-30 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xxl-30.symbol-circle .symbol-badge {
+      top: -5.85px;
+      right: -5.85px;
+    }
+    .symbol.symbol-xxl-30.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -5.85px;
+    }
+    .symbol.symbol-xxl-30.symbol-fixed .symbol-label {
+      width: 30px;
+      height: 30px;
+    }
+    .symbol.symbol-xxl-30.symbol-fixed > img {
+      width: 30px;
+      height: 30px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-30.symbol-2by3 .symbol-label {
+      height: 30px;
+      width: 45px;
+    }
+    .symbol.symbol-xxl-30.symbol-2by3 > img {
+      height: 30px;
+      width: 45px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-35 > img {
+      width: 100%;
+      max-width: 35px;
+      height: 35px;
+    }
+    .symbol.symbol-xxl-35 .symbol-label {
+      width: 35px;
+      height: 35px;
+    }
+    .symbol.symbol-xxl-35 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xxl-35 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xxl-35.symbol-circle .symbol-badge {
+      top: -4.825px;
+      right: -4.825px;
+    }
+    .symbol.symbol-xxl-35.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -4.825px;
+    }
+    .symbol.symbol-xxl-35.symbol-fixed .symbol-label {
+      width: 35px;
+      height: 35px;
+    }
+    .symbol.symbol-xxl-35.symbol-fixed > img {
+      width: 35px;
+      height: 35px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-35.symbol-2by3 .symbol-label {
+      height: 35px;
+      width: 52.5px;
+    }
+    .symbol.symbol-xxl-35.symbol-2by3 > img {
+      height: 35px;
+      width: 52.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-40 > img {
+      width: 100%;
+      max-width: 40px;
+      height: 40px;
+    }
+    .symbol.symbol-xxl-40 .symbol-label {
+      width: 40px;
+      height: 40px;
+    }
+    .symbol.symbol-xxl-40 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xxl-40 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xxl-40.symbol-circle .symbol-badge {
+      top: -3.8px;
+      right: -3.8px;
+    }
+    .symbol.symbol-xxl-40.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -3.8px;
+    }
+    .symbol.symbol-xxl-40.symbol-fixed .symbol-label {
+      width: 40px;
+      height: 40px;
+    }
+    .symbol.symbol-xxl-40.symbol-fixed > img {
+      width: 40px;
+      height: 40px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-40.symbol-2by3 .symbol-label {
+      height: 40px;
+      width: 60px;
+    }
+    .symbol.symbol-xxl-40.symbol-2by3 > img {
+      height: 40px;
+      width: 60px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-45 > img {
+      width: 100%;
+      max-width: 45px;
+      height: 45px;
+    }
+    .symbol.symbol-xxl-45 .symbol-label {
+      width: 45px;
+      height: 45px;
+    }
+    .symbol.symbol-xxl-45 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xxl-45 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xxl-45.symbol-circle .symbol-badge {
+      top: -2.775px;
+      right: -2.775px;
+    }
+    .symbol.symbol-xxl-45.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -2.775px;
+    }
+    .symbol.symbol-xxl-45.symbol-fixed .symbol-label {
+      width: 45px;
+      height: 45px;
+    }
+    .symbol.symbol-xxl-45.symbol-fixed > img {
+      width: 45px;
+      height: 45px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-45.symbol-2by3 .symbol-label {
+      height: 45px;
+      width: 67.5px;
+    }
+    .symbol.symbol-xxl-45.symbol-2by3 > img {
+      height: 45px;
+      width: 67.5px;
+      max-width: auto;
+    }
+    .symbol > img {
+      width: 100%;
+      max-width: 50px;
+      height: 50px;
+    }
+    .symbol .symbol-label {
+      width: 50px;
+      height: 50px;
+    }
+    .symbol .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-circle .symbol-badge {
+      top: -1.75px;
+      right: -1.75px;
+    }
+    .symbol.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -1.75px;
+    }
+    .symbol.symbol-fixed .symbol-label {
+      width: 50px;
+      height: 50px;
+    }
+    .symbol.symbol-fixed > img {
+      width: 50px;
+      height: 50px;
+      max-width: auto;
+    }
+    .symbol.symbol-2by3 .symbol-label {
+      height: 50px;
+      width: 75px;
+    }
+    .symbol.symbol-2by3 > img {
+      height: 50px;
+      width: 75px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-50 > img {
+      width: 100%;
+      max-width: 50px;
+      height: 50px;
+    }
+    .symbol.symbol-xxl-50 .symbol-label {
+      width: 50px;
+      height: 50px;
+    }
+    .symbol.symbol-xxl-50 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xxl-50 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xxl-50.symbol-circle .symbol-badge {
+      top: -1.75px;
+      right: -1.75px;
+    }
+    .symbol.symbol-xxl-50.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -1.75px;
+    }
+    .symbol.symbol-xxl-50.symbol-fixed .symbol-label {
+      width: 50px;
+      height: 50px;
+    }
+    .symbol.symbol-xxl-50.symbol-fixed > img {
+      width: 50px;
+      height: 50px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-50.symbol-2by3 .symbol-label {
+      height: 50px;
+      width: 75px;
+    }
+    .symbol.symbol-xxl-50.symbol-2by3 > img {
+      height: 50px;
+      width: 75px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-55 > img {
+      width: 100%;
+      max-width: 55px;
+      height: 55px;
+    }
+    .symbol.symbol-xxl-55 .symbol-label {
+      width: 55px;
+      height: 55px;
+    }
+    .symbol.symbol-xxl-55 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xxl-55 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xxl-55.symbol-circle .symbol-badge {
+      top: -0.725px;
+      right: -0.725px;
+    }
+    .symbol.symbol-xxl-55.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -0.725px;
+    }
+    .symbol.symbol-xxl-55.symbol-fixed .symbol-label {
+      width: 55px;
+      height: 55px;
+    }
+    .symbol.symbol-xxl-55.symbol-fixed > img {
+      width: 55px;
+      height: 55px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-55.symbol-2by3 .symbol-label {
+      height: 55px;
+      width: 82.5px;
+    }
+    .symbol.symbol-xxl-55.symbol-2by3 > img {
+      height: 55px;
+      width: 82.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-60 > img {
+      width: 100%;
+      max-width: 60px;
+      height: 60px;
+    }
+    .symbol.symbol-xxl-60 .symbol-label {
+      width: 60px;
+      height: 60px;
+    }
+    .symbol.symbol-xxl-60 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xxl-60 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xxl-60.symbol-circle .symbol-badge {
+      top: 0.3px;
+      right: 0.3px;
+    }
+    .symbol.symbol-xxl-60.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 0.3px;
+    }
+    .symbol.symbol-xxl-60.symbol-fixed .symbol-label {
+      width: 60px;
+      height: 60px;
+    }
+    .symbol.symbol-xxl-60.symbol-fixed > img {
+      width: 60px;
+      height: 60px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-60.symbol-2by3 .symbol-label {
+      height: 60px;
+      width: 90px;
+    }
+    .symbol.symbol-xxl-60.symbol-2by3 > img {
+      height: 60px;
+      width: 90px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-65 > img {
+      width: 100%;
+      max-width: 65px;
+      height: 65px;
+    }
+    .symbol.symbol-xxl-65 .symbol-label {
+      width: 65px;
+      height: 65px;
+    }
+    .symbol.symbol-xxl-65 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xxl-65 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xxl-65.symbol-circle .symbol-badge {
+      top: 1.325px;
+      right: 1.325px;
+    }
+    .symbol.symbol-xxl-65.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 1.325px;
+    }
+    .symbol.symbol-xxl-65.symbol-fixed .symbol-label {
+      width: 65px;
+      height: 65px;
+    }
+    .symbol.symbol-xxl-65.symbol-fixed > img {
+      width: 65px;
+      height: 65px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-65.symbol-2by3 .symbol-label {
+      height: 65px;
+      width: 97.5px;
+    }
+    .symbol.symbol-xxl-65.symbol-2by3 > img {
+      height: 65px;
+      width: 97.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-70 > img {
+      width: 100%;
+      max-width: 70px;
+      height: 70px;
+    }
+    .symbol.symbol-xxl-70 .symbol-label {
+      width: 70px;
+      height: 70px;
+    }
+    .symbol.symbol-xxl-70 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xxl-70 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xxl-70.symbol-circle .symbol-badge {
+      top: 2.35px;
+      right: 2.35px;
+    }
+    .symbol.symbol-xxl-70.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 2.35px;
+    }
+    .symbol.symbol-xxl-70.symbol-fixed .symbol-label {
+      width: 70px;
+      height: 70px;
+    }
+    .symbol.symbol-xxl-70.symbol-fixed > img {
+      width: 70px;
+      height: 70px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-70.symbol-2by3 .symbol-label {
+      height: 70px;
+      width: 105px;
+    }
+    .symbol.symbol-xxl-70.symbol-2by3 > img {
+      height: 70px;
+      width: 105px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-75 > img {
+      width: 100%;
+      max-width: 75px;
+      height: 75px;
+    }
+    .symbol.symbol-xxl-75 .symbol-label {
+      width: 75px;
+      height: 75px;
+    }
+    .symbol.symbol-xxl-75 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xxl-75 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xxl-75.symbol-circle .symbol-badge {
+      top: 3.375px;
+      right: 3.375px;
+    }
+    .symbol.symbol-xxl-75.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 3.375px;
+    }
+    .symbol.symbol-xxl-75.symbol-fixed .symbol-label {
+      width: 75px;
+      height: 75px;
+    }
+    .symbol.symbol-xxl-75.symbol-fixed > img {
+      width: 75px;
+      height: 75px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-75.symbol-2by3 .symbol-label {
+      height: 75px;
+      width: 112.5px;
+    }
+    .symbol.symbol-xxl-75.symbol-2by3 > img {
+      height: 75px;
+      width: 112.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-80 > img {
+      width: 100%;
+      max-width: 80px;
+      height: 80px;
+    }
+    .symbol.symbol-xxl-80 .symbol-label {
+      width: 80px;
+      height: 80px;
+    }
+    .symbol.symbol-xxl-80 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xxl-80 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xxl-80.symbol-circle .symbol-badge {
+      top: 4.4px;
+      right: 4.4px;
+    }
+    .symbol.symbol-xxl-80.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 4.4px;
+    }
+    .symbol.symbol-xxl-80.symbol-fixed .symbol-label {
+      width: 80px;
+      height: 80px;
+    }
+    .symbol.symbol-xxl-80.symbol-fixed > img {
+      width: 80px;
+      height: 80px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-80.symbol-2by3 .symbol-label {
+      height: 80px;
+      width: 120px;
+    }
+    .symbol.symbol-xxl-80.symbol-2by3 > img {
+      height: 80px;
+      width: 120px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-85 > img {
+      width: 100%;
+      max-width: 85px;
+      height: 85px;
+    }
+    .symbol.symbol-xxl-85 .symbol-label {
+      width: 85px;
+      height: 85px;
+    }
+    .symbol.symbol-xxl-85 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xxl-85 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xxl-85.symbol-circle .symbol-badge {
+      top: 5.425px;
+      right: 5.425px;
+    }
+    .symbol.symbol-xxl-85.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 5.425px;
+    }
+    .symbol.symbol-xxl-85.symbol-fixed .symbol-label {
+      width: 85px;
+      height: 85px;
+    }
+    .symbol.symbol-xxl-85.symbol-fixed > img {
+      width: 85px;
+      height: 85px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-85.symbol-2by3 .symbol-label {
+      height: 85px;
+      width: 127.5px;
+    }
+    .symbol.symbol-xxl-85.symbol-2by3 > img {
+      height: 85px;
+      width: 127.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-90 > img {
+      width: 100%;
+      max-width: 90px;
+      height: 90px;
+    }
+    .symbol.symbol-xxl-90 .symbol-label {
+      width: 90px;
+      height: 90px;
+    }
+    .symbol.symbol-xxl-90 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xxl-90 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xxl-90.symbol-circle .symbol-badge {
+      top: 6.45px;
+      right: 6.45px;
+    }
+    .symbol.symbol-xxl-90.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 6.45px;
+    }
+    .symbol.symbol-xxl-90.symbol-fixed .symbol-label {
+      width: 90px;
+      height: 90px;
+    }
+    .symbol.symbol-xxl-90.symbol-fixed > img {
+      width: 90px;
+      height: 90px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-90.symbol-2by3 .symbol-label {
+      height: 90px;
+      width: 135px;
+    }
+    .symbol.symbol-xxl-90.symbol-2by3 > img {
+      height: 90px;
+      width: 135px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-95 > img {
+      width: 100%;
+      max-width: 95px;
+      height: 95px;
+    }
+    .symbol.symbol-xxl-95 .symbol-label {
+      width: 95px;
+      height: 95px;
+    }
+    .symbol.symbol-xxl-95 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xxl-95 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xxl-95.symbol-circle .symbol-badge {
+      top: 7.475px;
+      right: 7.475px;
+    }
+    .symbol.symbol-xxl-95.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 7.475px;
+    }
+    .symbol.symbol-xxl-95.symbol-fixed .symbol-label {
+      width: 95px;
+      height: 95px;
+    }
+    .symbol.symbol-xxl-95.symbol-fixed > img {
+      width: 95px;
+      height: 95px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-95.symbol-2by3 .symbol-label {
+      height: 95px;
+      width: 142.5px;
+    }
+    .symbol.symbol-xxl-95.symbol-2by3 > img {
+      height: 95px;
+      width: 142.5px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-100 > img {
+      width: 100%;
+      max-width: 100px;
+      height: 100px;
+    }
+    .symbol.symbol-xxl-100 .symbol-label {
+      width: 100px;
+      height: 100px;
+    }
+    .symbol.symbol-xxl-100 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xxl-100 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xxl-100.symbol-circle .symbol-badge {
+      top: 8.5px;
+      right: 8.5px;
+    }
+    .symbol.symbol-xxl-100.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 8.5px;
+    }
+    .symbol.symbol-xxl-100.symbol-fixed .symbol-label {
+      width: 100px;
+      height: 100px;
+    }
+    .symbol.symbol-xxl-100.symbol-fixed > img {
+      width: 100px;
+      height: 100px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-100.symbol-2by3 .symbol-label {
+      height: 100px;
+      width: 150px;
+    }
+    .symbol.symbol-xxl-100.symbol-2by3 > img {
+      height: 100px;
+      width: 150px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-120 > img {
+      width: 100%;
+      max-width: 120px;
+      height: 120px;
+    }
+    .symbol.symbol-xxl-120 .symbol-label {
+      width: 120px;
+      height: 120px;
+    }
+    .symbol.symbol-xxl-120 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xxl-120 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xxl-120.symbol-circle .symbol-badge {
+      top: 12.6px;
+      right: 12.6px;
+    }
+    .symbol.symbol-xxl-120.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 12.6px;
+    }
+    .symbol.symbol-xxl-120.symbol-fixed .symbol-label {
+      width: 120px;
+      height: 120px;
+    }
+    .symbol.symbol-xxl-120.symbol-fixed > img {
+      width: 120px;
+      height: 120px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-120.symbol-2by3 .symbol-label {
+      height: 120px;
+      width: 180px;
+    }
+    .symbol.symbol-xxl-120.symbol-2by3 > img {
+      height: 120px;
+      width: 180px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-130 > img {
+      width: 100%;
+      max-width: 130px;
+      height: 130px;
+    }
+    .symbol.symbol-xxl-130 .symbol-label {
+      width: 130px;
+      height: 130px;
+    }
+    .symbol.symbol-xxl-130 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xxl-130 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xxl-130.symbol-circle .symbol-badge {
+      top: 14.65px;
+      right: 14.65px;
+    }
+    .symbol.symbol-xxl-130.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 14.65px;
+    }
+    .symbol.symbol-xxl-130.symbol-fixed .symbol-label {
+      width: 130px;
+      height: 130px;
+    }
+    .symbol.symbol-xxl-130.symbol-fixed > img {
+      width: 130px;
+      height: 130px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-130.symbol-2by3 .symbol-label {
+      height: 130px;
+      width: 195px;
+    }
+    .symbol.symbol-xxl-130.symbol-2by3 > img {
+      height: 130px;
+      width: 195px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-140 > img {
+      width: 100%;
+      max-width: 140px;
+      height: 140px;
+    }
+    .symbol.symbol-xxl-140 .symbol-label {
+      width: 140px;
+      height: 140px;
+    }
+    .symbol.symbol-xxl-140 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xxl-140 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xxl-140.symbol-circle .symbol-badge {
+      top: 16.7px;
+      right: 16.7px;
+    }
+    .symbol.symbol-xxl-140.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 16.7px;
+    }
+    .symbol.symbol-xxl-140.symbol-fixed .symbol-label {
+      width: 140px;
+      height: 140px;
+    }
+    .symbol.symbol-xxl-140.symbol-fixed > img {
+      width: 140px;
+      height: 140px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-140.symbol-2by3 .symbol-label {
+      height: 140px;
+      width: 210px;
+    }
+    .symbol.symbol-xxl-140.symbol-2by3 > img {
+      height: 140px;
+      width: 210px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-150 > img {
+      width: 100%;
+      max-width: 150px;
+      height: 150px;
+    }
+    .symbol.symbol-xxl-150 .symbol-label {
+      width: 150px;
+      height: 150px;
+    }
+    .symbol.symbol-xxl-150 .symbol-badge {
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      right: -6px;
+    }
+    .symbol.symbol-xxl-150 .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: -6px;
+    }
+    .symbol.symbol-xxl-150.symbol-circle .symbol-badge {
+      top: 18.75px;
+      right: 18.75px;
+    }
+    .symbol.symbol-xxl-150.symbol-circle .symbol-badge.symbol-badge-bottom {
+      top: auto;
+      bottom: 18.75px;
+    }
+    .symbol.symbol-xxl-150.symbol-fixed .symbol-label {
+      width: 150px;
+      height: 150px;
+    }
+    .symbol.symbol-xxl-150.symbol-fixed > img {
+      width: 150px;
+      height: 150px;
+      max-width: auto;
+    }
+    .symbol.symbol-xxl-150.symbol-2by3 .symbol-label {
+      height: 150px;
+      width: 225px;
+    }
+    .symbol.symbol-xxl-150.symbol-2by3 > img {
+      height: 150px;
+      width: 225px;
+      max-width: auto;
+    }
+  }
+  
+  .symbol-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .symbol-group .symbol {
+    position: relative;
+    z-index: 0;
+    margin-left: -10px;
+    border: 2px solid #ffffff;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .symbol-group .symbol:first-child {
+    margin-left: 0;
+  }
+  .symbol-group .symbol:hover {
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    z-index: 1;
+  }
+  .symbol-group.symbol-hover .symbol {
+    cursor: pointer;
+  }
+  
+  .symbol-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .symbol-list .symbol {
+    margin-right: 0.5rem;
+  }
+  .symbol-list .symbol:last-child {
+    margin-right: 0;
+  }

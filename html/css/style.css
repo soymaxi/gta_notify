@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Notification */
+
+body {
+    background-color: transparent !important;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.template,
+.notification {
+    display: none;
+}
+
+.notif-container {
+    width: 20%;
+    position: absolute;
+    right: 25px;
+    top: 17%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items: start;
+}
+
+.notification {
+    padding: 10px;
+    width: fit-content;
+    border-radius: 3px;
+    margin: 6px;
+    font: caption;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    background: rgba(0, 0, 0, 0.692);
+    border-radius: 10px;
+    color: white;
+    font-weight:bold;
+}
+
+/* Styles (Don't Touch) */
+
+.success {
+    border-image-source:-webkit-linear-gradient(top,  #2bff00 0%,#a0ff7a 100%);
+    color: #fff;
+}
+
+.inform {
+    border-image-source:-webkit-linear-gradient(top,  #3370a5 0%,#3370a5 100%);
+    color: #fff;
+}
+
+.info {
+    border-image-source:-webkit-linear-gradient(top,  #3370a5 0%,#3370a5 100%);
+    color: #fff;
+}
+
+.error {
+    border-image-source:-webkit-linear-gradient(top,  #b55255 0%,#b55255 100%);
+    color: #fff;
+}
+
+/* Badges (Don't Touch)  */
+
+.core { /* Watermark */
+    padding:5px;
+    background-color:#4854ff6a;
+    border-radius:5px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.title {
+    color: white;
+    font-weight:bold;
+    font-style:italic;
+}
+
+.icon {
+    padding:5px;
+}
+
+.bold {
+    font-weight:bold;
+}
+
+.normal-text {
+    font-weight: 400;
+}
