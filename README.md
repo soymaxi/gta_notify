@@ -39,7 +39,7 @@ exports['gta_notify']:NotiFija('start', 'notifijaidtest', 'success', 'NotiFija t
 ```
 
 ```html
-['gta_notify']:NotiFija('end', 'notifijaidtest')
+exports['gta_notify']:NotiFija('end', 'notifijaidtest')
 ```
 
 start (start the notification)
