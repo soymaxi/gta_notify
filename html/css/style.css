@@ -41,23 +41,8 @@ body {
 
 /* Styles (Don't Touch) */
 
-.success {
-    border-image-source:-webkit-linear-gradient(top,  #2bff00 0%,#a0ff7a 100%);
-    color: #fff;
-}
-
-.inform {
+.notify {
     border-image-source:-webkit-linear-gradient(top,  #3370a5 0%,#3370a5 100%);
-    color: #fff;
-}
-
-.info {
-    border-image-source:-webkit-linear-gradient(top,  #3370a5 0%,#3370a5 100%);
-    color: #fff;
-}
-
-.error {
-    border-image-source:-webkit-linear-gradient(top,  #b55255 0%,#b55255 100%);
     color: #fff;
 }
 
