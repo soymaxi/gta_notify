@@ -31,6 +31,23 @@ TriggerClientEvent('gta_notify:client:SendAlert', source, { type = 'notify', tex
 
 ---
 
+## NotiFija Usage
+
+NotiFija Notifications Actions -
+```html
+exports['gta_notify']:NotiFija('start', 'notifijaidtest', 'success', 'NotiFija test. (Persist Noti)')
+
+exports['gta_notify']:NotiFija('end', 'notifijaidtest')
+```
+
+start (start the notification)
+end (end the notification)
+
+
+> NOTE: If you have a issue pls contact me on discord.
+
+---
+
 ## Badges
 
 - `badge-core`  -> A background for put yor server name
