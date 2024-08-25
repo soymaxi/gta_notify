@@ -6,7 +6,7 @@ Original Author: [@JayMontana36](https://github.com/JayMontana36)
 
 # preview 👀
 
-![](https://cdn.discordapp.com/attachments/1057014722274271343/1177819260777668619/image.png?ex=65f517aa&is=65e2a2aa&hm=2ac1856926d1d65ba1eb4aa33e25c479b4f098c5a8d6b4a3c407802edd5b86de&)
+![](https://i.imgur.com/cjlQG0a.png)
 
 # usage
 
